@@ -683,9 +683,6 @@ def main() -> None:
         )
         st.stop()
 
-    if source.startswith("sample"):
-        st.info("ℹ️ Running on **synthetic sample data** for demonstration. "
-                "Drop a real CSV into `data/raw/` and rerun to use real data.", icon="ℹ️")
 
     render_nav()
     render_hero(data, source)
