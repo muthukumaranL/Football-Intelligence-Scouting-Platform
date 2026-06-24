@@ -1,0 +1,177 @@
+/* =========================================================================
+   Football Intelligence Scouting Platform — dark theme, red accents
+   ========================================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap');
+
+:root {
+  --bg: #0b0d12;
+  --surface: #13161d;
+  --surface-2: #1b1f29;
+  --line: #262b36;
+  --text: #e8eaf0;
+  --muted: #8b93a7;
+  --red: #e11d3a;
+  --red-bright: #ff2e4d;
+  --red-soft: #ff6b81;
+  --red-deep: #8c0f23;
+  --green: #21c17a;
+  --amber: #f5a524;
+}
+
+/* ---- Global shell ----------------------------------------------------- */
+html, body, [class*="css"], .stApp {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+.stApp {
+  background:
+    radial-gradient(900px 500px at 85% -5%, rgba(225,29,58,0.18), transparent 60%),
+    radial-gradient(700px 400px at 0% 0%, rgba(140,15,35,0.16), transparent 55%),
+    linear-gradient(180deg, #0b0d12 0%, #0a0b10 100%);
+  background-attachment: fixed;            /* subtle parallax feel on scroll */
+  color: var(--text);
+}
+.block-container { padding-top: 1.2rem; padding-bottom: 3rem; max-width: 1280px; }
+html { scroll-behavior: smooth; }
+
+/* Headings get a Rajdhani sporty feel; offset so anchor jumps clear the nav */
+h1, h2, h3 { font-family: 'Rajdhani', 'Inter', sans-serif; letter-spacing: .4px; }
+h2, h3 { scroll-margin-top: 80px; }
+
+/* ---- Quick-jump nav --------------------------------------------------- */
+.nav-bar {
+  position: sticky; top: 0; z-index: 999;
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding: 10px 16px; margin-bottom: 14px; border-radius: 12px;
+  background: rgba(13,16,22,0.82); backdrop-filter: blur(10px);
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+.nav-brand {
+  font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 1.05rem;
+  color: var(--red-soft); letter-spacing: 1px; white-space: nowrap;
+}
+.nav-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.nav-link {
+  font-size: .8rem; font-weight: 600; text-decoration: none; color: var(--muted);
+  padding: 5px 11px; border-radius: 8px; border: 1px solid transparent;
+  transition: color .15s ease, background .15s ease, border-color .15s ease;
+}
+.nav-link:hover {
+  color: #fff; background: rgba(225,29,58,0.14); border-color: rgba(225,29,58,0.45);
+}
+
+/* ---- Hero ------------------------------------------------------------- */
+.hero {
+  position: relative;
+  border-radius: 22px;
+  padding: 46px 40px 40px;
+  margin-bottom: 10px;
+  background:
+    linear-gradient(120deg, rgba(225,29,58,0.20), rgba(11,13,18,0.2) 55%),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.022) 0 2px, transparent 2px 80px),
+    linear-gradient(180deg, #14171f, #0e1015);
+  border: 1px solid rgba(225,29,58,0.35);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.02);
+  overflow: hidden;
+}
+.hero::after {                              /* faint center-circle pitch motif */
+  content: ""; position: absolute; right: -70px; top: -70px;
+  width: 260px; height: 260px; border-radius: 50%;
+  border: 2px solid rgba(225,29,58,0.25);
+}
+.hero-kicker {
+  display: inline-block; font-size: .72rem; letter-spacing: 3px; font-weight: 700;
+  text-transform: uppercase; color: var(--red-soft);
+  border: 1px solid rgba(225,29,58,0.4); border-radius: 999px;
+  padding: 5px 14px; margin-bottom: 16px; background: rgba(225,29,58,0.08);
+}
+.hero-title {
+  font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 3.0rem;
+  line-height: 1.02; margin: 0 0 10px;
+  background: linear-gradient(90deg, #ffffff, #ffb0bb 60%, var(--red-bright));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.hero-sub { color: var(--muted); font-size: 1.04rem; max-width: 760px; }
+
+/* ---- Tech pills ------------------------------------------------------- */
+.pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.pill {
+  font-size: .76rem; font-weight: 600; padding: 6px 12px; border-radius: 8px;
+  background: rgba(255,255,255,0.04); border: 1px solid var(--line); color: var(--text);
+}
+.pill.red { background: rgba(225,29,58,0.14); border-color: rgba(225,29,58,0.45); color: var(--red-soft); }
+
+/* ---- Section tags ----------------------------------------------------- */
+.section-tag {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: .72rem; letter-spacing: 2.5px; font-weight: 700; text-transform: uppercase;
+  color: var(--red-soft); margin: 6px 0 2px;
+}
+.section-tag::before { content: ""; width: 26px; height: 2px; background: var(--red); display:inline-block; }
+
+/* ---- KPI tiles -------------------------------------------------------- */
+.kpi-tile {
+  background: linear-gradient(160deg, var(--surface-2), var(--surface));
+  border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 16px;
+  position: relative; overflow: hidden; height: 100%;
+}
+.kpi-tile::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+  background: linear-gradient(180deg, var(--red-bright), var(--red-deep));
+}
+.kpi-value { font-family: 'Rajdhani', sans-serif; font-size: 1.9rem; font-weight: 700; color: #fff; }
+.kpi-label { color: var(--muted); font-size: .82rem; margin-top: 2px; }
+.kpi-foot { color: var(--red-soft); font-size: .72rem; margin-top: 6px; font-weight: 600; }
+
+/* ---- Glass / player cards -------------------------------------------- */
+.glass {
+  background: linear-gradient(160deg, rgba(27,31,41,0.9), rgba(19,22,29,0.9));
+  border: 1px solid var(--line); border-radius: 16px; padding: 18px;
+}
+.player-card {
+  background: linear-gradient(165deg, #181c25, #111419);
+  border: 1px solid var(--line); border-left: 4px solid var(--red);
+  border-radius: 14px; padding: 16px 16px 14px; height: 100%;
+  transition: transform .15s ease, border-color .15s ease;
+}
+.player-card:hover { transform: translateY(-3px); border-left-color: var(--red-bright); }
+.pc-name { font-weight: 700; font-size: 1.05rem; color: #fff; }
+.pc-meta { color: var(--muted); font-size: .82rem; margin: 2px 0 10px; }
+.pc-row { display: flex; justify-content: space-between; font-size: .85rem; padding: 3px 0; border-bottom: 1px dashed rgba(255,255,255,0.05); }
+.pc-row span:first-child { color: var(--muted); }
+.pc-row b { color: var(--text); }
+.pc-reason { color: var(--red-soft); font-size: .8rem; margin-top: 10px; line-height: 1.35; }
+
+/* ---- Badges ----------------------------------------------------------- */
+.badge { display:inline-block; font-size:.72rem; font-weight:700; padding:4px 10px; border-radius:999px; letter-spacing:.4px; }
+.badge-low  { background: rgba(33,193,122,0.16);  color: var(--green); border:1px solid rgba(33,193,122,0.4); }
+.badge-med  { background: rgba(245,165,36,0.16);  color: var(--amber); border:1px solid rgba(245,165,36,0.4); }
+.badge-high { background: rgba(225,29,58,0.18);   color: var(--red-soft); border:1px solid rgba(225,29,58,0.45); }
+.badge-pos  { background: rgba(255,255,255,0.05); color: var(--text); border:1px solid var(--line); }
+
+/* ---- Score ring (SVG sits inside) ------------------------------------ */
+.ring-wrap { display:flex; align-items:center; gap:14px; }
+.ring-label { color: var(--muted); font-size:.8rem; }
+
+/* ---- Insights story --------------------------------------------------- */
+.story h4 { color: #fff; margin-bottom: 4px; }
+.story p { color: var(--muted); line-height: 1.55; }
+.story .accent { color: var(--red-soft); font-weight:600; }
+
+/* ---- Footer ----------------------------------------------------------- */
+.footer {
+  margin-top: 26px; padding: 22px; border-radius: 16px; text-align:center;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(225,29,58,0.06), rgba(19,22,29,0.6));
+  color: var(--muted); font-size: .86rem;
+}
+.footer b { color: var(--red-soft); }
+
+/* ---- Divider ---------------------------------------------------------- */
+.div-line { height:1px; background: linear-gradient(90deg, transparent, var(--line), transparent); margin: 30px 0 8px; }
+
+/* ---- Streamlit widget polish ----------------------------------------- */
+[data-testid="stSidebar"] { background: #0e1116; border-right: 1px solid var(--line); }
+.stTabs [data-baseweb="tab"] { font-weight: 600; }
+.stTabs [aria-selected="true"] { color: var(--red-soft) !important; }
+div[data-baseweb="tab-highlight"] { background-color: var(--red) !important; }

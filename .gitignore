@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment / secrets ---
+.env
+.env.local
+*.key
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Generated data & model artifacts (regenerated on run) ---
+data/processed/*.parquet
+data/processed/*.csv
+models/*.joblib
+models/*.pkl
+
+# Keep the real-data drop-in folder but ignore its contents (user-supplied).
+data/raw/*
+!data/raw/.gitkeep
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

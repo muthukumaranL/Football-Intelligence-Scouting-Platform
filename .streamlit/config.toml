@@ -1,0 +1,14 @@
+# Streamlit theme — dark mode with red accents to match the dashboard CSS.
+[theme]
+base = "dark"
+primaryColor = "#e11d3a"
+backgroundColor = "#0b0d12"
+secondaryBackgroundColor = "#13161d"
+textColor = "#e8eaf0"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

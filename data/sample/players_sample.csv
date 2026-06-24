@@ -1,0 +1,601 @@
+player_id,name,age,nationality,club,league,position,position_group,overall_rating,potential,market_value_eur,wage_eur,height_cm,weight_kg,preferred_foot,contract_years_left,international_reputation,skill_moves,weak_foot,pace,shooting,passing,dribbling,defending,physic,appearances,goals,assists,minutes_played
+100000,Felix Dubois,20,Nigeria,Lille Or,Ligue Première,CB,Defender,75,85,4967000.0,7600.0,184,79,Right,1,1,2,2,56,44,67,61,79,72,33,2,7,2143
+100001,Mateo Costa,29,England,Costa Azul,Continental A,CB,Defender,72,72,1340000.0,1200.0,176,82,Right,1,1,3,3,61,54,69,63,73,75,25,0,5,1349
+100002,Luca Bauer,28,Uruguay,Kings Park,Crown League,CB,Defender,70,70,1168000.0,1500.0,184,72,Right,4,2,3,4,70,47,54,51,70,74,25,2,0,1872
+100003,Emre Romano,23,Morocco,Costa Azul,Continental A,LB,Defender,69,69,1482000.0,2000.0,178,65,Right,3,1,3,3,53,38,55,59,69,69,16,0,2,916
+100004,Noah Bauer,23,England,Eindhoven Volt,Eredivisie Pro,LB,Defender,62,68,771000.0,1200.0,199,78,Right,3,1,3,2,57,49,59,52,73,57,12,0,2,859
+100005,Tariq Vega,22,Portugal,Olympia Verde,Continental A,CAM,Midfielder,69,78,3347000.0,4600.0,174,77,Right,3,2,3,3,66,60,68,61,60,66,20,4,6,1107
+100006,Diego Ferreira,25,Morocco,Paris Étoile,Ligue Première,CM,Midfielder,70,77,2740000.0,2100.0,179,73,Right,1,2,4,3,69,74,74,65,54,78,35,6,9,2952
+100007,Theo Petrov,24,Colombia,Napoli Sud,Serie Oro,CF,Forward,74,79,3746000.0,4000.0,193,96,Right,4,1,3,4,72,79,70,93,67,65,26,11,9,1297
+100008,Kai Petrov,23,Norway,Napoli Sud,Serie Oro,LWB,Defender,75,81,2312000.0,2800.0,184,70,Right,3,2,2,4,67,53,58,62,78,78,25,3,1,1482
+100009,Adam Silva,27,Sweden,Atlético Sol,Continental A,CB,Defender,60,65,485000.0,1000.0,172,82,Right,2,2,2,3,57,31,49,49,64,61,35,2,1,2303
+100010,Victor Janssen,27,Germany,Riverside FC,Crown League,LW,Forward,85,90,8373000.0,11200.0,191,80,Left,5,1,3,2,91,98,83,93,61,81,30,13,4,2511
+100011,Kenji Lindqvist,26,Italy,Paris Étoile,Ligue Première,GK,Goalkeeper,81,86,2409000.0,1700.0,195,77,Left,4,2,2,3,45,47,63,61,70,64,35,0,0,2611
+100012,Diego Dubois,26,Mexico,Ironside AFC,Crown League,LWB,Defender,79,79,2234000.0,3500.0,174,64,Right,5,2,3,3,73,67,66,62,84,86,30,2,2,1509
+100013,Mamadou Toure,16,Colombia,Utrecht Dom,Eredivisie Pro,CAM,Midfielder,70,79,1930000.0,1400.0,183,83,Left,5,2,4,3,69,67,74,76,65,70,30,2,5,2579
+100014,Eli Castro,22,Croatia,Hansa Nord,Bundesklasse,CB,Defender,59,62,801000.0,1200.0,173,83,Right,2,3,3,3,51,42,63,38,64,55,31,1,4,1522
+100015,Rafael Ferreira,33,Croatia,Eindhoven Volt,Eredivisie Pro,RM,Midfielder,84,84,3147000.0,2600.0,185,75,Right,5,1,3,2,81,84,84,87,78,83,15,6,7,699
+100016,Dani Volkov,27,Netherlands,Monaco Rocher,Ligue Première,RWB,Defender,77,82,2682000.0,3800.0,186,78,Right,1,1,4,4,73,53,72,63,85,69,34,1,7,1765
+100017,Samir Bianchi,21,Uruguay,Sporting Lumen,Continental A,CF,Forward,79,85,5597000.0,4400.0,183,68,Right,4,2,3,3,91,82,84,83,59,85,27,13,6,1497
+100018,Daichi Kovac,33,Colombia,Riverside FC,Crown League,CM,Midfielder,69,69,1072000.0,1000.0,191,67,Right,4,3,1,2,60,53,67,66,63,68,29,4,14,1337
+100019,Kenji Petrov,22,France,Olympia Verde,Continental A,CM,Midfielder,75,82,4459000.0,6300.0,179,76,Right,4,1,3,3,59,71,77,84,64,68,10,2,4,471
+100020,Andre Hart,30,Portugal,Paris Étoile,Ligue Première,RM,Midfielder,62,62,669000.0,1000.0,183,84,Right,3,1,3,2,69,74,64,53,54,57,28,9,5,2164
+100021,Dani Marchetti,24,Spain,Olympia Verde,Continental A,CF,Forward,61,61,533000.0,1000.0,168,70,Right,1,1,2,2,67,64,39,69,41,53,38,16,10,2670
+100022,Andre Adeyemi,29,Senegal,Olympia Verde,Continental A,RB,Defender,71,71,1375000.0,1000.0,181,83,Right,5,1,2,4,65,56,57,53,77,72,15,1,1,675
+100023,Sergio Lindqvist,28,Colombia,Northgate United,Crown League,LW,Forward,65,65,1054000.0,1000.0,182,73,Right,5,3,4,4,71,70,63,68,45,62,6,3,2,335
+100024,Dani Hart,28,Croatia,Napoli Sud,Serie Oro,LW,Forward,77,79,3986000.0,3100.0,187,76,Left,5,2,3,2,88,85,77,84,57,61,37,18,7,2894
+100025,Mateo Adeyemi,21,Netherlands,Atlético Sol,Continental A,LB,Defender,61,69,855000.0,1000.0,178,71,Left,3,1,3,3,57,27,53,55,70,69,26,4,1,1962
+100026,Bruno Ferreira,22,Senegal,Eindhoven Volt,Eredivisie Pro,RWB,Defender,80,82,2568000.0,3600.0,193,76,Right,1,2,3,3,60,45,72,68,84,89,14,2,0,1199
+100027,Aleksandr Diallo,28,Senegal,Riverside FC,Crown League,RWB,Defender,68,72,1382000.0,1800.0,178,75,Right,3,1,3,3,60,43,66,56,73,70,29,0,3,1622
+100028,Pavel Castro,16,Japan,Rotterdam Haven,Eredivisie Pro,RM,Midfielder,69,79,2085000.0,1500.0,180,67,Right,1,1,2,3,65,61,74,76,55,58,20,5,8,987
+100029,Tom Marchetti,22,Belgium,Atlético Sol,Continental A,GK,Goalkeeper,76,85,3001000.0,4100.0,189,79,Right,1,3,3,3,58,43,66,45,55,66,38,0,0,2615
+100030,Tom Novak,24,Morocco,Crystal Rovers,Crown League,CF,Forward,79,86,5595000.0,8900.0,175,71,Right,5,1,5,3,84,88,77,90,59,73,0,0,0,0
+100031,Felix Castro,31,Denmark,Lille Or,Ligue Première,LM,Midfielder,70,70,1282000.0,1000.0,189,75,Right,2,2,3,3,66,62,68,71,59,73,25,8,9,2162
+100032,Leon Keller,24,Uruguay,Paris Étoile,Ligue Première,LWB,Defender,67,70,1275000.0,1200.0,185,78,Left,1,2,3,1,65,45,61,59,70,73,19,0,1,1590
+100033,Sven Petrov,16,Sweden,Schwarzwald SV,Bundesklasse,LW,Forward,70,81,4249000.0,5100.0,184,76,Right,4,1,4,3,80,80,66,71,51,63,30,13,12,2502
+100034,Yusuf Weber,22,Italy,Amsterdam Lance,Eredivisie Pro,LWB,Defender,69,72,1262000.0,1000.0,173,65,Right,4,1,2,3,66,57,61,56,68,70,34,2,2,2478
+100035,Nikola Weber,25,South Korea,Lyon Sud,Ligue Première,LWB,Defender,68,75,1870000.0,2400.0,179,78,Right,1,2,3,2,73,49,66,64,77,73,29,2,4,2390
+100036,Daichi Lindqvist,24,Colombia,Napoli Sud,Serie Oro,RW,Forward,71,81,4656000.0,4600.0,184,73,Right,1,3,3,4,75,75,52,70,47,63,24,12,3,1892
+100037,Hugo Sato,22,Germany,Kings Park,Crown League,RW,Forward,74,80,2845000.0,3800.0,187,70,Right,2,2,2,3,78,86,52,70,43,68,17,5,5,1398
+100038,Bruno Tanaka,27,Morocco,Amsterdam Lance,Eredivisie Pro,LW,Forward,72,78,2347000.0,1900.0,177,58,Right,5,1,1,2,82,76,72,87,65,60,13,5,2,832
+100039,Daichi Romano,24,Italy,Monaco Rocher,Ligue Première,LB,Defender,82,88,7150000.0,5500.0,191,84,Right,1,3,2,4,81,54,77,75,84,87,14,2,1,941
+100040,Daichi Castro,23,Ghana,Riverside FC,Crown League,RW,Forward,57,62,703000.0,1000.0,184,71,Right,2,1,4,3,52,66,62,57,37,48,37,18,8,1941
+100041,Luca Larsson,30,Belgium,Paris Étoile,Ligue Première,CB,Defender,54,54,236000.0,1000.0,186,74,Left,5,1,4,1,53,32,47,33,58,68,20,4,2,1346
+100042,Jonas Costa,20,Serbia,Napoli Sud,Serie Oro,CB,Defender,75,80,3940000.0,3000.0,170,68,Left,1,2,3,4,71,56,79,62,80,69,23,0,2,1675
+100043,Liam Stankovic,27,USA,Roma Vera,Serie Oro,RB,Defender,91,92,7286000.0,9500.0,179,72,Right,1,1,2,4,80,71,86,76,90,99,23,2,0,1081
+100044,Omar Okafor,28,France,Inter Lazio,Serie Oro,LB,Defender,70,72,1654000.0,2600.0,175,78,Right,1,1,4,3,57,57,70,64,67,76,26,4,2,1808
+100045,Yusuf Petrov,17,Japan,Kings Park,Crown League,LWB,Defender,83,95,6362000.0,5100.0,187,76,Left,3,1,3,4,76,65,66,79,86,84,26,1,5,1798
+100046,Ravi Fischer,21,USA,Eindhoven Volt,Eredivisie Pro,LB,Defender,75,84,4028000.0,4500.0,184,66,Right,3,1,3,5,73,58,66,57,75,68,0,0,0,0
+100047,Pavel Marchetti,23,Sweden,Hansa Nord,Bundesklasse,GK,Goalkeeper,65,69,856000.0,1000.0,189,66,Right,5,1,1,3,42,30,45,50,45,73,31,0,0,2735
+100048,Eli Romano,24,Belgium,Lille Or,Ligue Première,RWB,Defender,57,61,454000.0,1000.0,178,68,Right,1,1,3,2,50,49,39,43,69,61,30,1,1,1586
+100049,Marco Dubois,20,Uruguay,Eisern Berlin,Bundesklasse,CB,Defender,66,72,2592000.0,2300.0,180,61,Right,1,2,3,4,69,46,57,57,60,68,28,1,9,1641
+100050,Carlos Castro,33,Uruguay,Torino Granata,Serie Oro,LM,Midfielder,63,63,654000.0,1000.0,173,71,Right,3,2,4,3,48,48,74,64,63,61,9,1,1,630
+100051,Kenji Sato,25,Mexico,Napoli Sud,Serie Oro,ST,Forward,67,67,1579000.0,2200.0,177,75,Right,5,1,4,2,66,69,54,71,50,52,23,8,3,1899
+100052,Diego Novak,19,Uruguay,Amsterdam Lance,Eredivisie Pro,CAM,Midfielder,60,68,832000.0,1100.0,186,84,Left,4,3,1,4,51,55,66,63,55,68,34,8,6,1836
+100053,Marco Volkov,29,Norway,Utrecht Dom,Eredivisie Pro,CM,Midfielder,64,64,590000.0,1000.0,189,71,Right,3,2,3,2,61,56,69,72,44,67,28,5,13,2204
+100054,Marco Janssen,18,Senegal,Atlético Sol,Continental A,LM,Midfielder,70,80,1886000.0,2500.0,182,59,Right,4,3,2,3,65,50,78,74,59,66,33,5,10,1566
+100055,Tariq Stankovic,24,Mexico,Northgate United,Crown League,LWB,Defender,68,68,1124000.0,1000.0,182,76,Left,3,2,3,2,66,46,53,56,70,67,12,1,0,578
+100056,Noah Silva,28,Japan,Amsterdam Lance,Eredivisie Pro,CDM,Midfielder,63,64,852000.0,1200.0,187,69,Right,1,1,3,2,54,55,66,73,61,51,26,8,6,1529
+100057,Omar Haaland,29,Belgium,Milano Nero,Serie Oro,CAM,Midfielder,75,75,1599000.0,1700.0,179,76,Right,4,2,3,3,72,59,86,81,69,55,32,3,8,2088
+100058,Tariq Marin,16,Colombia,Bayern Stein,Bundesklasse,CM,Midfielder,56,68,985000.0,1400.0,169,76,Right,3,1,3,2,52,49,58,61,57,56,33,12,5,2269
+100059,Sergio Tanaka,23,Morocco,Bayern Stein,Bundesklasse,RB,Defender,74,81,2382000.0,1600.0,178,67,Left,4,1,3,4,64,51,73,64,72,79,26,1,1,1182
+100060,Aaron Ibrahim,18,Nigeria,Northgate United,Crown League,LW,Forward,75,88,3854000.0,5100.0,182,77,Left,5,2,2,3,77,80,56,80,45,72,17,5,4,1226
+100061,Diego Schmidt,16,Norway,Marseille Bleu,Ligue Première,LW,Forward,78,80,2627000.0,2800.0,179,63,Right,5,1,2,5,79,88,71,74,48,81,14,9,4,1240
+100062,Aaron Mensah,26,Netherlands,Olympia Verde,Continental A,LW,Forward,60,61,810000.0,1000.0,170,77,Right,4,2,3,3,65,60,61,57,36,52,22,6,1,1670
+100063,Theo Castro,23,Colombia,Costa Azul,Continental A,GK,Goalkeeper,64,68,728000.0,1000.0,186,71,Right,5,2,2,4,39,26,42,36,46,62,27,0,0,2171
+100064,Ivan Nielsen,20,South Korea,Milano Nero,Serie Oro,LB,Defender,78,87,3782000.0,2600.0,179,80,Right,5,2,3,3,64,68,74,66,89,80,27,2,4,1825
+100065,Noah Castro,20,Sweden,Rhein Adler,Bundesklasse,CDM,Midfielder,72,82,2960000.0,4400.0,179,66,Right,2,1,3,2,72,79,73,66,59,73,30,10,5,2017
+100066,Theo Bianchi,25,Spain,Rotterdam Haven,Eredivisie Pro,ST,Forward,57,58,497000.0,1000.0,180,72,Right,1,1,2,3,63,63,44,61,43,58,27,11,6,2144
+100067,Dani Nielsen,27,Croatia,Kings Park,Crown League,CF,Forward,79,81,4614000.0,5100.0,183,84,Right,1,1,5,3,85,83,74,83,58,80,24,9,8,1622
+100068,Emre Park,22,Uruguay,Real Montaña,Continental A,RWB,Defender,63,72,1308000.0,1000.0,189,80,Left,3,3,5,2,55,41,55,56,63,59,17,1,0,1314
+100069,Sven Almeida,22,Portugal,Riverside FC,Crown League,LM,Midfielder,64,67,1504000.0,1900.0,180,70,Right,4,1,3,3,58,47,69,66,61,64,25,7,4,1230
+100070,Diego Kovac,23,Denmark,Lille Or,Ligue Première,RB,Defender,66,72,1259000.0,1000.0,195,77,Right,2,1,2,4,64,41,63,60,76,78,23,4,1,1783
+100071,Joel Sato,20,Serbia,Ironside AFC,Crown League,LWB,Defender,69,76,1932000.0,1200.0,188,79,Left,3,1,3,3,57,45,69,52,67,76,18,3,2,813
+100072,Ivan Novak,28,Denmark,Real Montaña,Continental A,LW,Forward,77,77,2719000.0,4300.0,189,73,Right,1,2,5,2,70,80,74,75,60,79,38,21,8,2690
+100073,Theo Dubois,23,Japan,Torino Granata,Serie Oro,CB,Defender,66,68,1126000.0,1000.0,188,76,Right,2,2,1,4,41,41,60,51,79,68,26,3,2,1728
+100074,Omar Petrov,29,Croatia,Eindhoven Volt,Eredivisie Pro,CAM,Midfielder,66,66,890000.0,1000.0,183,84,Left,3,3,2,3,63,58,68,68,82,68,22,3,7,1345
+100075,Liam Tanaka,35,Denmark,Utrecht Dom,Eredivisie Pro,LB,Defender,80,80,2915000.0,4400.0,176,67,Right,3,1,2,3,72,52,77,61,83,82,28,5,7,2131
+100076,Tom Marin,29,Brazil,Real Montaña,Continental A,RWB,Defender,74,74,1409000.0,1700.0,180,86,Right,4,2,4,5,62,41,68,60,67,73,12,1,1,986
+100077,Tom Moretti,24,Serbia,Groningen Noord,Eredivisie Pro,ST,Forward,85,85,8866000.0,5800.0,177,73,Right,5,2,2,2,95,85,80,88,56,75,24,15,6,1643
+100078,Mateo Janssen,19,South Korea,Eisern Berlin,Bundesklasse,RB,Defender,60,68,735000.0,1100.0,183,75,Right,3,1,3,4,46,34,47,45,70,65,26,3,1,2225
+100079,Yusuf Stankovic,24,Belgium,Amsterdam Lance,Eredivisie Pro,CM,Midfielder,78,80,2807000.0,3600.0,171,74,Left,3,1,1,5,79,64,87,93,72,60,25,7,5,1646
+100080,Felix Marin,24,Croatia,Eisern Berlin,Bundesklasse,RM,Midfielder,70,78,2272000.0,3400.0,184,76,Left,5,3,4,2,63,71,76,73,65,66,28,6,10,2447
+100081,Noah Dubois,26,South Korea,Roma Vera,Serie Oro,LB,Defender,60,64,509000.0,1000.0,183,62,Right,5,1,4,3,69,42,62,49,64,64,34,4,8,1833
+100082,Emre Bianchi,29,Germany,Atlético Sol,Continental A,ST,Forward,66,66,858000.0,1000.0,182,69,Right,2,2,4,4,69,75,52,60,50,58,23,9,5,1523
+100083,Ivan Sato,24,Croatia,Napoli Sud,Serie Oro,CAM,Midfielder,77,80,3902000.0,3000.0,183,69,Right,5,2,2,2,77,69,77,74,82,73,38,8,15,2132
+100084,Mateo Rossi,18,Croatia,Paris Étoile,Ligue Première,CDM,Midfielder,67,76,1549000.0,1600.0,175,75,Left,5,3,4,3,61,57,71,66,66,74,26,7,3,1996
+100085,Ivan Tanaka,26,Uruguay,Costa Azul,Continental A,CAM,Midfielder,66,71,680000.0,1000.0,178,73,Left,4,1,4,2,55,64,75,69,59,65,23,5,3,1085
+100086,Omar Marin,19,Italy,Inter Lazio,Serie Oro,CDM,Midfielder,82,89,6782000.0,8100.0,184,73,Right,4,2,4,2,78,71,82,83,95,88,9,2,0,538
+100087,Omar Adeyemi,26,Belgium,Eindhoven Volt,Eredivisie Pro,CB,Defender,78,83,2622000.0,2200.0,175,86,Right,3,2,4,3,68,45,67,72,80,76,30,3,1,2465
+100088,Nicolas Andersen,25,South Korea,Marseille Bleu,Ligue Première,CB,Defender,72,74,2159000.0,2200.0,183,66,Right,3,1,2,3,63,60,64,55,74,80,28,1,3,1391
+100089,Tom Petrov,22,England,Groningen Noord,Eredivisie Pro,CAM,Midfielder,59,67,710000.0,1000.0,183,70,Left,5,2,3,3,60,57,56,62,58,49,38,10,10,2753
+100090,Nicolas Silva,18,Spain,Lyon Sud,Ligue Première,LM,Midfielder,74,81,3391000.0,3600.0,186,83,Left,2,2,3,3,91,58,72,79,80,71,15,0,4,840
+100091,Nicolas Bauer,23,Denmark,Rotterdam Haven,Eredivisie Pro,CM,Midfielder,64,70,1216000.0,1100.0,192,68,Right,4,1,3,2,60,51,65,59,65,61,12,2,8,638
+100092,Theo Keller,22,Portugal,Rhein Adler,Bundesklasse,LM,Midfielder,76,84,5701000.0,6800.0,183,87,Right,5,2,4,2,73,58,79,74,76,81,9,2,1,439
+100093,Ivan Volkov,23,Denmark,Eisern Berlin,Bundesklasse,CAM,Midfielder,52,52,273000.0,1000.0,195,75,Right,5,1,3,2,41,48,56,55,61,41,24,3,8,1328
+100094,Aaron Adeyemi,30,Morocco,Inter Lazio,Serie Oro,RW,Forward,71,75,1745000.0,1800.0,187,72,Right,4,3,3,1,76,82,70,84,49,83,38,24,8,2476
+100095,Nicolas Bianchi,31,Morocco,Roma Vera,Serie Oro,RWB,Defender,72,72,1403000.0,1800.0,179,79,Right,2,2,4,4,65,50,69,51,72,75,26,2,4,1388
+100096,Adam Reyes,21,Portugal,Inter Lazio,Serie Oro,RM,Midfielder,69,74,1664000.0,2400.0,188,72,Right,2,2,2,3,58,58,71,67,61,74,21,3,6,1300
+100097,Dani Ferreira,20,Spain,Napoli Sud,Serie Oro,CDM,Midfielder,63,71,945000.0,1500.0,183,81,Right,5,1,2,2,65,64,64,70,51,72,38,4,6,3393
+100098,Mamadou Costa,25,Ghana,Northgate United,Crown League,RB,Defender,77,82,3941000.0,4000.0,177,74,Right,4,1,3,4,72,58,69,67,78,81,19,0,3,948
+100099,Eli Mensah,32,Denmark,Inter Lazio,Serie Oro,GK,Goalkeeper,71,71,857000.0,1000.0,191,69,Left,2,1,2,4,42,38,53,46,47,82,23,0,0,2022
+100100,Ravi Diallo,29,Colombia,Atlético Sol,Continental A,LWB,Defender,73,76,1096000.0,1000.0,174,75,Left,4,1,3,4,55,57,66,65,78,70,29,1,2,1408
+100101,Kai Vega,22,Senegal,Ironside AFC,Crown League,CAM,Midfielder,78,83,4220000.0,5200.0,175,82,Left,3,2,4,4,81,73,81,82,74,82,29,10,6,1422
+100102,Omar Larsson,20,Denmark,Crystal Rovers,Crown League,CM,Midfielder,77,82,4114000.0,4100.0,180,70,Right,3,1,3,3,74,71,83,81,65,65,23,4,7,1265
+100103,Andre Schmidt,20,Colombia,Eindhoven Volt,Eredivisie Pro,CM,Midfielder,76,77,2148000.0,2500.0,178,80,Right,3,2,4,4,67,65,88,82,66,82,32,8,9,1915
+100104,Sven Moretti,22,Argentina,Monaco Rocher,Ligue Première,LM,Midfielder,77,85,4139000.0,6100.0,186,65,Right,5,2,3,3,62,67,81,83,78,75,21,4,4,1182
+100105,Mateo Vega,25,Spain,Milano Nero,Serie Oro,RM,Midfielder,75,81,2620000.0,1600.0,180,69,Left,5,2,3,5,66,65,66,74,65,65,25,6,3,1336
+100106,Victor Marin,24,Croatia,Schwarzwald SV,Bundesklasse,CM,Midfielder,75,79,2574000.0,3000.0,182,73,Right,4,2,3,4,68,55,77,71,56,67,16,12,2,1031
+100107,Aleksandr Marchetti,30,Norway,Crystal Rovers,Crown League,ST,Forward,70,70,2161000.0,2800.0,180,73,Right,1,1,3,2,80,71,84,76,51,69,35,21,7,3022
+100108,Eli Marin,33,Senegal,Milano Nero,Serie Oro,GK,Goalkeeper,75,76,713000.0,1000.0,194,65,Right,5,3,3,2,46,41,52,52,59,70,27,0,0,2427
+100109,Kai Toure,16,Senegal,Real Montaña,Continental A,CAM,Midfielder,68,82,4216000.0,6100.0,178,83,Left,1,1,3,3,64,57,76,75,72,71,24,7,11,1231
+100110,Joel Silva,24,Senegal,Napoli Sud,Serie Oro,RM,Midfielder,73,79,2656000.0,2500.0,174,83,Right,3,2,3,3,64,65,76,66,60,80,23,7,9,1658
+100111,Sergio Mensah,27,Ghana,Roma Vera,Serie Oro,RM,Midfielder,67,71,798000.0,1000.0,183,70,Left,4,2,4,4,63,49,71,77,74,69,29,5,7,1413
+100112,Pavel Vega,23,Nigeria,Paris Étoile,Ligue Première,LWB,Defender,87,91,9772000.0,9600.0,170,82,Right,1,1,3,3,78,53,88,81,99,81,10,1,1,491
+100113,Andre Castro,22,Italy,Milano Nero,Serie Oro,RB,Defender,63,72,1461000.0,2200.0,173,85,Right,5,3,3,4,57,55,55,45,73,68,22,3,3,1499
+100114,Hugo Park,28,Senegal,Amsterdam Lance,Eredivisie Pro,CF,Forward,78,81,4533000.0,3600.0,193,68,Right,2,1,3,2,84,82,86,77,56,74,22,15,4,1436
+100115,Carlos Schmidt,25,Brazil,Inter Lazio,Serie Oro,RB,Defender,69,69,1241000.0,1900.0,185,74,Right,2,2,3,3,64,39,63,75,79,75,34,2,2,2957
+100116,Bruno Andersen,27,Uruguay,Costa Azul,Continental A,CM,Midfielder,71,73,1850000.0,2800.0,171,82,Right,3,3,3,2,62,57,78,75,68,69,31,9,8,1586
+100117,Rafael Larsson,28,Serbia,Rotterdam Haven,Eredivisie Pro,CDM,Midfielder,71,71,1386000.0,1300.0,180,76,Left,5,1,2,4,66,53,76,63,62,73,33,7,8,1811
+100118,Andre Diallo,28,Japan,Groningen Noord,Eredivisie Pro,CM,Midfielder,62,63,763000.0,1000.0,180,72,Right,1,3,2,3,47,46,70,64,54,54,2,0,0,117
+100119,Pavel Fischer,31,Argentina,Rhein Adler,Bundesklasse,CM,Midfielder,67,69,1040000.0,1100.0,167,75,Right,2,2,2,3,71,59,70,68,59,69,16,5,4,969
+100120,Marco Bauer,19,Japan,Northgate United,Crown League,RW,Forward,67,76,2307000.0,3000.0,179,68,Right,3,1,3,3,60,67,62,69,48,55,10,4,2,895
+100121,Nikola Diallo,26,Argentina,Olympia Verde,Continental A,RM,Midfielder,81,81,2268000.0,2200.0,180,73,Right,3,2,3,3,77,66,83,82,70,70,29,7,8,1914
+100122,Marco Almeida,20,Netherlands,Sporting Lumen,Continental A,CAM,Midfielder,74,82,3475000.0,4900.0,169,70,Right,2,1,2,4,76,72,71,68,62,64,27,8,9,2020
+100123,Diego Vega,27,Morocco,Lille Or,Ligue Première,LWB,Defender,69,70,1425000.0,1300.0,179,66,Right,3,1,2,3,58,41,54,53,68,62,18,1,1,956
+100124,Victor Rossi,21,Argentina,Riverside FC,Crown League,LWB,Defender,71,75,1855000.0,1500.0,183,75,Right,4,2,3,3,63,45,67,55,80,72,31,3,4,2219
+100125,Luca Sato,26,Argentina,Kings Park,Crown League,RWB,Defender,63,63,541000.0,1000.0,176,74,Right,5,1,3,3,51,35,51,55,67,66,28,3,2,2266
+100126,Andre Park,24,USA,Marseille Bleu,Ligue Première,CM,Midfielder,75,78,2968000.0,2000.0,179,83,Right,4,1,1,3,75,70,83,81,73,72,18,5,9,1234
+100127,Noah Marchetti,34,England,Crystal Rovers,Crown League,CF,Forward,70,70,1355000.0,1000.0,177,70,Right,1,2,2,3,67,77,53,77,54,69,17,7,3,843
+100128,Hugo Diallo,24,Senegal,Hansa Nord,Bundesklasse,CM,Midfielder,80,83,2834000.0,1800.0,190,83,Right,3,1,2,3,75,65,89,78,76,77,25,11,4,1200
+100129,Theo Moretti,24,Germany,Riverside FC,Crown League,CAM,Midfielder,75,76,2558000.0,3700.0,189,70,Right,1,1,1,3,64,67,81,83,73,72,27,4,8,1706
+100130,Kenji Kovac,16,Argentina,Utrecht Dom,Eredivisie Pro,LWB,Defender,73,90,4596000.0,5100.0,174,71,Right,4,2,5,2,76,50,65,67,82,73,22,0,5,1801
+100131,Aleksandr Moretti,29,Denmark,Northgate United,Crown League,RB,Defender,77,77,2827000.0,2100.0,179,79,Right,4,1,4,2,80,63,73,66,82,79,15,4,1,833
+100132,Victor Sato,31,Uruguay,Schwarzwald SV,Bundesklasse,LM,Midfielder,67,67,1044000.0,1000.0,176,85,Left,2,2,2,3,70,56,75,65,58,59,13,2,1,930
+100133,Sven Ferreira,22,Italy,Lille Or,Ligue Première,RW,Forward,65,71,1994000.0,2700.0,182,76,Right,1,2,3,3,71,68,49,64,53,61,37,15,6,1697
+100134,Jonas Vega,21,England,Riverside FC,Crown League,LM,Midfielder,91,96,13057000.0,18700.0,182,74,Right,2,3,3,3,87,72,95,88,82,95,38,17,11,2680
+100135,Pavel Novak,26,Belgium,Marseille Bleu,Ligue Première,LWB,Defender,66,66,676000.0,1000.0,168,82,Left,4,1,3,4,62,47,57,46,70,60,21,1,0,1254
+100136,Jonas Okafor,22,Uruguay,Costa Azul,Continental A,CF,Forward,62,73,2346000.0,2100.0,191,75,Right,3,1,3,3,71,56,47,66,37,49,18,11,3,1043
+100137,Diego Mensah,30,USA,Kings Park,Crown League,CF,Forward,69,71,1590000.0,2100.0,179,81,Right,1,1,3,1,69,74,58,80,49,67,12,7,2,907
+100138,Carlos Kovac,20,USA,Hansa Nord,Bundesklasse,RB,Defender,70,74,1234000.0,1000.0,185,75,Right,3,4,2,3,66,48,71,58,71,71,38,2,2,2124
+100139,Kai Diallo,32,South Korea,Ironside AFC,Crown League,LWB,Defender,76,76,1955000.0,3000.0,183,66,Left,2,1,3,3,73,55,65,69,81,79,24,2,2,1334
+100140,Tariq Almeida,29,Denmark,Schwarzwald SV,Bundesklasse,LW,Forward,63,66,793000.0,1000.0,177,86,Right,4,2,4,2,63,76,63,61,34,63,18,9,2,1224
+100141,Aaron Schmidt,26,Morocco,Paris Étoile,Ligue Première,CB,Defender,66,70,960000.0,1000.0,192,87,Right,5,2,4,2,53,48,65,55,61,63,21,1,1,1767
+100142,Bruno Ferreira,23,Uruguay,Monaco Rocher,Ligue Première,RWB,Defender,74,77,3150000.0,4600.0,179,81,Right,5,3,3,3,70,51,69,62,63,77,27,3,4,2138
+100143,Omar Vega,31,Netherlands,Northgate United,Crown League,CM,Midfielder,58,58,430000.0,1000.0,182,81,Right,1,2,2,4,59,62,63,59,58,61,38,6,11,2719
+100144,Mamadou Almeida,20,Croatia,Torino Granata,Serie Oro,RB,Defender,57,60,390000.0,1000.0,176,82,Right,4,1,3,3,45,27,51,37,46,53,19,1,2,1651
+100145,Hugo Schmidt,25,Senegal,Groningen Noord,Eredivisie Pro,GK,Goalkeeper,68,69,1174000.0,1800.0,189,77,Left,3,2,4,2,35,32,53,43,63,68,17,0,0,1338
+100146,Victor Silva,31,Ghana,Schwarzwald SV,Bundesklasse,CDM,Midfielder,70,70,1018000.0,1100.0,178,83,Right,4,1,4,4,62,57,71,65,52,66,26,4,9,1966
+100147,Rafael Sato,26,Spain,Ironside AFC,Crown League,RM,Midfielder,74,74,1921000.0,1400.0,180,77,Right,5,1,2,2,64,66,77,77,77,69,22,4,4,1757
+100148,Yusuf Marchetti,26,Croatia,Inter Lazio,Serie Oro,RB,Defender,76,76,2188000.0,2100.0,186,70,Right,2,2,3,3,82,50,69,69,76,75,36,3,4,2596
+100149,Samir Marin,21,Belgium,Riverside FC,Crown League,RM,Midfielder,72,79,1429000.0,1500.0,177,86,Right,1,2,2,3,58,54,76,85,70,57,33,11,12,1966
+100150,Liam Mensah,30,Brazil,Olympia Verde,Continental A,RW,Forward,56,56,351000.0,1000.0,185,70,Right,2,1,3,5,49,56,46,51,29,38,25,8,0,1672
+100151,Marco Tanaka,24,Croatia,Napoli Sud,Serie Oro,ST,Forward,81,81,5434000.0,5100.0,183,71,Right,4,2,2,3,82,84,75,76,63,81,16,6,3,1381
+100152,Leon Marin,24,Argentina,Torino Granata,Serie Oro,RW,Forward,81,87,9553000.0,9900.0,184,68,Right,1,2,1,3,77,81,71,80,59,81,7,6,0,591
+100153,Aaron Sato,29,Colombia,Eindhoven Volt,Eredivisie Pro,CF,Forward,70,73,2679000.0,2200.0,190,78,Right,4,2,4,2,75,69,56,80,57,68,16,7,2,806
+100154,Rafael Keller,17,Norway,Kings Park,Crown League,CF,Forward,77,93,8402000.0,12900.0,171,89,Right,1,2,3,3,81,72,76,76,50,77,25,21,10,1593
+100155,Felix Marin,28,Colombia,Roma Vera,Serie Oro,RM,Midfielder,62,63,810000.0,1000.0,184,73,Right,3,1,2,4,55,49,68,70,54,64,21,3,5,1468
+100156,Emre Novak,29,South Korea,Northgate United,Crown League,CAM,Midfielder,70,70,1470000.0,1200.0,177,76,Right,1,1,2,3,64,42,74,71,70,54,23,8,7,1371
+100157,Sven Novak,20,Morocco,Crystal Rovers,Crown League,CAM,Midfielder,75,80,3703000.0,4700.0,176,71,Right,1,1,3,4,70,65,80,65,76,68,38,9,11,2467
+100158,Aleksandr Toure,21,Brazil,Schwarzwald SV,Bundesklasse,LW,Forward,59,72,1316000.0,1000.0,185,74,Right,5,2,4,4,64,66,45,63,41,54,15,3,1,744
+100159,Aleksandr Lindqvist,28,South Korea,Kings Park,Crown League,RM,Midfielder,71,71,1989000.0,2800.0,185,69,Right,3,2,2,1,71,64,68,72,65,65,26,9,11,1472
+100160,Emre Kovac,18,Argentina,Eindhoven Volt,Eredivisie Pro,LB,Defender,81,91,7225000.0,9800.0,178,71,Right,4,2,5,2,69,55,60,62,90,96,16,0,0,893
+100161,Jonas Novak,27,Japan,Groningen Noord,Eredivisie Pro,CF,Forward,72,74,2399000.0,3000.0,184,81,Right,2,1,3,2,70,77,70,77,54,77,19,6,5,979
+100162,Pavel Reyes,30,Argentina,Napoli Sud,Serie Oro,RM,Midfielder,76,77,1804000.0,2300.0,176,75,Right,4,3,4,4,78,53,86,80,78,75,21,6,9,1822
+100163,Carlos Okafor,27,Mexico,Kings Park,Crown League,RW,Forward,64,64,999000.0,1600.0,179,89,Right,1,2,2,4,69,71,65,70,46,54,29,11,3,1842
+100164,Ravi Stankovic,26,Senegal,Lille Or,Ligue Première,ST,Forward,66,66,1071000.0,1200.0,184,74,Right,2,3,3,4,75,79,64,65,46,78,23,12,4,2000
+100165,Nicolas Ferreira,26,Portugal,Olympia Verde,Continental A,LWB,Defender,77,77,3087000.0,3500.0,188,77,Right,1,2,1,3,67,50,69,76,91,75,27,0,2,1448
+100166,Andre Almeida,20,Ghana,Crystal Rovers,Crown League,LM,Midfielder,80,89,6396000.0,6200.0,182,82,Right,1,1,3,4,76,68,85,87,68,77,20,5,5,1692
+100167,Hugo Janssen,22,South Korea,Real Montaña,Continental A,LB,Defender,65,72,1788000.0,1900.0,171,84,Right,5,2,2,3,69,51,49,52,65,66,18,0,2,1355
+100168,Dani Castro,29,Mexico,Lille Or,Ligue Première,CDM,Midfielder,61,61,678000.0,1000.0,176,71,Right,2,2,3,3,50,57,68,70,51,64,31,5,6,1796
+100169,Aaron Weber,19,Senegal,Lille Or,Ligue Première,RM,Midfielder,75,83,3938000.0,5200.0,184,73,Right,5,1,2,4,79,62,71,77,79,73,15,6,7,1058
+100170,Emre Diallo,20,Colombia,Napoli Sud,Serie Oro,LM,Midfielder,74,80,2177000.0,2000.0,168,68,Right,3,2,2,3,70,77,82,80,83,67,5,3,1,227
+100171,Aaron Nielsen,25,Spain,Real Montaña,Continental A,LB,Defender,75,80,3539000.0,4200.0,177,80,Right,1,2,3,2,69,43,63,61,77,77,29,2,2,1569
+100172,Eli Nielsen,16,Croatia,Amsterdam Lance,Eredivisie Pro,CF,Forward,73,80,6399000.0,6200.0,191,93,Left,5,1,2,3,77,79,72,70,51,80,15,2,3,958
+100173,Aleksandr Larsson,19,Mexico,Utrecht Dom,Eredivisie Pro,GK,Goalkeeper,69,78,1492000.0,2400.0,185,81,Left,4,1,3,3,48,33,42,50,55,64,32,0,2,1725
+100174,Ivan Andersen,26,Italy,Real Montaña,Continental A,CF,Forward,76,80,3706000.0,5600.0,185,64,Right,1,3,3,1,79,78,73,79,67,81,13,8,3,959
+100175,Marco Costa,33,Germany,Marseille Bleu,Ligue Première,RM,Midfielder,56,58,360000.0,1000.0,180,76,Right,1,2,3,3,33,55,60,44,53,61,9,4,6,440
+100176,Jonas Mensah,29,Nigeria,Napoli Sud,Serie Oro,ST,Forward,72,73,1771000.0,1200.0,176,88,Right,1,1,4,4,75,74,70,73,53,68,10,5,2,685
+100177,Bruno Vega,26,Sweden,Kings Park,Crown League,RW,Forward,70,71,1679000.0,2000.0,184,77,Right,5,2,5,3,63,74,73,77,48,60,25,9,4,2184
+100178,Omar Romano,17,Italy,Northgate United,Crown League,LWB,Defender,66,79,1413000.0,1100.0,187,63,Right,2,1,3,3,51,29,58,63,70,66,9,0,1,650
+100179,Andre Nielsen,29,Croatia,Sporting Lumen,Continental A,LW,Forward,81,81,5474000.0,3600.0,183,85,Left,2,1,1,2,86,82,75,86,32,93,21,16,6,1075
+100180,Kai Schmidt,24,Sweden,Rotterdam Haven,Eredivisie Pro,CM,Midfielder,85,91,10303000.0,8700.0,180,73,Right,3,1,2,2,75,72,95,93,79,79,38,9,14,2655
+100181,Eli Stankovic,26,Sweden,Amsterdam Lance,Eredivisie Pro,CM,Midfielder,77,82,2879000.0,2600.0,187,86,Right,2,2,4,4,78,66,82,78,74,76,22,8,9,1482
+100182,Jonas Toure,18,Nigeria,Milano Nero,Serie Oro,LM,Midfielder,64,72,999000.0,1000.0,188,83,Left,4,2,3,4,65,56,73,73,67,69,27,7,3,1289
+100183,Ivan Almeida,26,Japan,Lyon Sud,Ligue Première,CB,Defender,86,91,7724000.0,6800.0,176,81,Left,3,3,3,3,79,69,89,87,95,88,27,0,5,1765
+100184,Luca Marin,27,Argentina,Riverside FC,Crown League,CF,Forward,75,77,1756000.0,1500.0,183,80,Right,1,1,3,1,79,82,68,78,66,89,23,5,5,1985
+100185,Tariq Okafor,17,Senegal,Milano Nero,Serie Oro,CB,Defender,75,82,3027000.0,2200.0,191,79,Left,2,1,3,4,76,75,52,67,70,79,30,4,2,2490
+100186,Emre Ibrahim,23,Morocco,Costa Azul,Continental A,CDM,Midfielder,66,69,1172000.0,1500.0,185,68,Right,4,1,3,2,53,52,77,67,65,46,25,5,6,1495
+100187,Sergio Diallo,28,Croatia,Rotterdam Haven,Eredivisie Pro,CAM,Midfielder,73,73,1183000.0,1300.0,186,74,Left,3,1,2,5,63,73,70,81,66,70,28,9,10,2496
+100188,Samir Marchetti,27,South Korea,Milano Nero,Serie Oro,GK,Goalkeeper,69,69,1216000.0,1000.0,193,78,Right,2,1,5,2,43,39,48,43,49,66,29,0,0,1560
+100189,Eli Castro,18,Sweden,Utrecht Dom,Eredivisie Pro,RB,Defender,64,66,1516000.0,1800.0,187,75,Left,5,1,2,4,60,35,49,43,71,70,13,1,0,606
+100190,Carlos Reyes,25,Morocco,Olympia Verde,Continental A,LWB,Defender,71,82,3018000.0,4300.0,180,65,Right,1,2,4,3,74,44,62,58,75,69,14,0,1,653
+100191,Hugo Schmidt,25,Brazil,Groningen Noord,Eredivisie Pro,RM,Midfielder,79,79,4326000.0,6500.0,179,87,Right,3,2,1,3,80,71,78,69,72,86,23,8,8,1858
+100192,Carlos Ibrahim,30,France,Atlético Sol,Continental A,LW,Forward,57,57,412000.0,1000.0,187,79,Right,4,1,2,3,54,70,53,57,35,35,8,8,2,414
+100193,Tariq Keller,21,Spain,Costa Azul,Continental A,RW,Forward,71,77,2552000.0,4000.0,187,71,Right,1,2,4,3,75,68,75,71,57,63,25,11,7,1355
+100194,Samir Lindqvist,24,Croatia,Torino Granata,Serie Oro,RWB,Defender,71,75,2548000.0,3400.0,188,71,Right,3,2,2,3,56,42,60,66,75,71,17,0,0,1261
+100195,Nicolas Fischer,20,Denmark,Milano Nero,Serie Oro,LM,Midfielder,66,75,1978000.0,2000.0,197,80,Right,5,2,2,4,60,53,70,62,63,70,7,2,2,603
+100196,Mateo Kovac,25,Japan,Rotterdam Haven,Eredivisie Pro,GK,Goalkeeper,66,68,873000.0,1100.0,201,63,Right,5,3,1,3,48,31,45,39,35,54,36,0,0,2778
+100197,Kenji Castro,25,England,Ironside AFC,Crown League,CAM,Midfielder,76,85,2964000.0,2500.0,176,84,Left,1,1,3,3,85,68,78,73,77,64,26,5,9,2329
+100198,Ravi Marchetti,21,Nigeria,Real Montaña,Continental A,RB,Defender,84,89,6815000.0,10900.0,194,72,Right,1,1,3,2,88,61,81,77,93,81,21,0,3,1429
+100199,Yusuf Mensah,26,France,Paris Étoile,Ligue Première,LB,Defender,72,74,1404000.0,1000.0,175,81,Right,1,1,3,2,60,55,56,63,86,82,23,0,2,1918
+100200,Joel Petrov,28,South Korea,Napoli Sud,Serie Oro,LW,Forward,69,69,1188000.0,1400.0,176,77,Right,2,3,3,3,67,71,76,73,39,63,22,8,8,1464
+100201,Carlos Hart,29,Italy,Atlético Sol,Continental A,RW,Forward,78,83,6280000.0,4600.0,179,82,Right,5,2,3,4,85,83,81,82,56,86,35,17,2,1960
+100202,Ravi Nielsen,19,Portugal,Lille Or,Ligue Première,LM,Midfielder,74,83,3183000.0,3000.0,181,70,Left,3,3,2,2,88,77,81,77,69,64,7,0,4,337
+100203,Mateo Castro,25,Morocco,Schwarzwald SV,Bundesklasse,RM,Midfielder,59,62,895000.0,1000.0,188,81,Right,5,2,3,4,61,54,74,68,64,75,19,2,6,972
+100204,Diego Volkov,26,Brazil,Eisern Berlin,Bundesklasse,RWB,Defender,81,81,2561000.0,2800.0,192,58,Left,4,2,2,3,73,57,81,79,78,91,21,0,2,1517
+100205,Kenji Reyes,22,Italy,Costa Azul,Continental A,GK,Goalkeeper,70,78,1332000.0,1900.0,196,86,Right,4,1,3,3,44,33,52,48,40,67,33,0,0,2935
+100206,Liam Stankovic,18,Netherlands,Sporting Lumen,Continental A,RWB,Defender,73,76,2086000.0,2900.0,187,73,Right,3,2,3,2,64,52,67,61,76,80,27,0,4,1510
+100207,Joel Haaland,24,Argentina,Kings Park,Crown League,GK,Goalkeeper,77,79,2222000.0,2500.0,184,75,Right,4,1,2,2,40,37,59,55,67,75,19,0,1,1503
+100208,Nicolas Kovac,23,Belgium,Roma Vera,Serie Oro,CF,Forward,66,67,1240000.0,1000.0,180,83,Right,3,3,5,1,70,71,59,71,49,66,15,8,0,746
+100209,Ivan Costa,21,Brazil,Costa Azul,Continental A,CB,Defender,68,73,979000.0,1000.0,186,68,Right,2,3,3,3,67,46,54,55,74,63,22,0,4,1403
+100210,Victor Moretti,27,Ghana,Riverside FC,Crown League,RWB,Defender,69,69,647000.0,1000.0,183,70,Left,4,1,2,3,61,44,59,63,70,81,23,1,0,1061
+100211,Sven Reyes,24,Sweden,Rhein Adler,Bundesklasse,LW,Forward,83,91,14154000.0,21900.0,179,80,Right,4,1,3,3,84,82,81,74,69,78,23,12,13,1755
+100212,Leon Novak,23,Croatia,Rotterdam Haven,Eredivisie Pro,CM,Midfielder,61,71,1146000.0,1000.0,179,78,Right,3,3,2,4,67,60,64,62,66,56,38,14,9,2554
+100213,Tom Toure,27,France,Paris Étoile,Ligue Première,RW,Forward,77,78,2627000.0,3100.0,182,78,Right,1,3,3,4,87,79,77,79,57,70,24,9,13,1142
+100214,Omar Larsson,28,Morocco,Napoli Sud,Serie Oro,LW,Forward,72,72,2542000.0,2200.0,182,73,Right,4,1,3,2,79,76,49,58,60,76,20,8,2,900
+100215,Joel Tanaka,24,Sweden,Amsterdam Lance,Eredivisie Pro,CF,Forward,81,85,7386000.0,10800.0,179,67,Right,2,1,2,4,85,80,81,80,56,77,30,13,8,1898
+100216,Diego Petrov,26,Uruguay,Marseille Bleu,Ligue Première,LWB,Defender,67,72,1674000.0,1800.0,188,75,Right,1,1,3,2,54,45,59,71,74,66,17,1,1,1353
+100217,Bruno Bianchi,19,USA,Rotterdam Haven,Eredivisie Pro,CF,Forward,75,84,5440000.0,7000.0,179,80,Right,1,1,1,4,80,87,67,75,49,70,19,15,5,1196
+100218,Ravi Nielsen,26,Senegal,Ironside AFC,Crown League,RW,Forward,83,87,4206000.0,4900.0,182,80,Right,1,1,2,3,95,82,94,93,62,88,9,7,5,639
+100219,Samir Weber,18,England,Olympia Verde,Continental A,RWB,Defender,63,70,914000.0,1000.0,178,81,Right,4,3,4,3,56,36,59,40,60,63,20,0,4,1373
+100220,Tariq Volkov,27,Morocco,Rotterdam Haven,Eredivisie Pro,LM,Midfielder,71,78,2696000.0,3500.0,177,80,Right,3,3,3,4,67,60,73,66,69,63,33,5,9,1802
+100221,Yusuf Ferreira,24,Germany,Bayern Stein,Bundesklasse,RM,Midfielder,75,80,3436000.0,3600.0,188,74,Right,4,2,3,3,77,65,79,84,51,76,33,6,11,1560
+100222,Luca Silva,20,Mexico,Hansa Nord,Bundesklasse,CF,Forward,76,87,3432000.0,5200.0,177,72,Left,4,2,2,4,81,74,71,81,45,70,10,6,2,746
+100223,Felix Romano,28,Mexico,Rhein Adler,Bundesklasse,RB,Defender,71,71,1305000.0,1900.0,173,88,Right,3,2,2,3,76,52,69,62,73,76,30,3,4,1875
+100224,Bruno Nielsen,30,Uruguay,Eisern Berlin,Bundesklasse,CAM,Midfielder,73,73,1984000.0,2800.0,180,68,Right,1,1,2,2,73,65,77,77,64,71,29,11,6,1526
+100225,Tariq Diallo,23,Spain,Eindhoven Volt,Eredivisie Pro,ST,Forward,69,71,1708000.0,2000.0,167,68,Right,2,1,3,4,76,74,68,72,41,65,31,19,7,2462
+100226,Carlos Toure,20,Ghana,Monaco Rocher,Ligue Première,CF,Forward,66,71,1738000.0,2600.0,180,70,Right,1,1,2,4,70,71,59,80,39,71,33,18,8,1713
+100227,Tom Hart,18,Senegal,Rhein Adler,Bundesklasse,RWB,Defender,73,81,2677000.0,2900.0,183,63,Left,1,2,2,3,77,47,72,73,73,74,22,3,2,1889
+100228,Luca Petrov,31,Serbia,Monaco Rocher,Ligue Première,RM,Midfielder,70,70,724000.0,1100.0,180,76,Right,4,1,4,3,63,62,68,71,57,66,30,9,4,2137
+100229,Sergio Ibrahim,27,Argentina,Rotterdam Haven,Eredivisie Pro,RM,Midfielder,82,84,2724000.0,3100.0,170,66,Right,2,2,2,3,64,74,87,78,77,77,20,1,9,949
+100230,Mateo Costa,29,Sweden,Riverside FC,Crown League,CB,Defender,71,73,1733000.0,1700.0,173,69,Right,5,1,1,3,66,40,63,51,75,69,4,1,0,208
+100231,Ravi Schmidt,26,Germany,Lille Or,Ligue Première,RB,Defender,78,78,2594000.0,4100.0,186,69,Right,4,3,3,2,69,62,58,57,81,76,22,4,2,1309
+100232,Yusuf Moretti,21,Netherlands,Monaco Rocher,Ligue Première,RWB,Defender,67,75,1308000.0,1400.0,188,70,Left,2,1,3,3,54,45,66,56,77,75,30,0,4,1853
+100233,Samir Petrov,25,Portugal,Lille Or,Ligue Première,CM,Midfielder,78,82,3526000.0,3700.0,177,70,Right,3,1,3,3,76,65,79,87,77,68,31,15,8,2277
+100234,Felix Almeida,24,USA,Real Montaña,Continental A,CF,Forward,78,82,4087000.0,3400.0,179,73,Right,4,1,4,3,84,76,55,84,59,77,27,15,5,1871
+100235,Tom Ferreira,28,Spain,Utrecht Dom,Eredivisie Pro,CM,Midfielder,76,78,3204000.0,3700.0,188,82,Right,2,1,4,3,76,69,83,82,71,72,27,7,7,2201
+100236,Rafael Silva,20,Ghana,Hansa Nord,Bundesklasse,LWB,Defender,61,74,1271000.0,2000.0,175,88,Left,4,2,2,4,49,47,53,47,65,56,31,1,1,2149
+100237,Bruno Schmidt,18,Netherlands,Roma Vera,Serie Oro,LM,Midfielder,65,78,2632000.0,3400.0,190,75,Right,4,1,1,3,66,55,75,71,57,61,26,9,6,1542
+100238,Kenji Diallo,27,Ghana,Eindhoven Volt,Eredivisie Pro,CDM,Midfielder,69,69,927000.0,1100.0,177,73,Right,3,1,1,2,63,61,74,67,70,62,22,5,4,1774
+100239,Joel Bianchi,26,Senegal,Rhein Adler,Bundesklasse,CF,Forward,76,79,3375000.0,3000.0,175,72,Right,3,1,4,4,76,82,68,74,59,77,20,11,2,1493
+100240,Diego Diallo,21,Portugal,Monaco Rocher,Ligue Première,RWB,Defender,61,72,733000.0,1100.0,179,75,Right,1,1,3,1,62,39,44,40,65,66,22,2,3,1040
+100241,Bruno Larsson,16,Portugal,Kings Park,Crown League,LW,Forward,68,81,2560000.0,3900.0,183,75,Right,5,1,3,4,75,67,55,68,47,50,28,16,5,2399
+100242,Rafael Adeyemi,20,Brazil,Bayern Stein,Bundesklasse,RM,Midfielder,87,91,7799000.0,12200.0,176,81,Left,4,1,3,2,83,81,92,88,80,83,28,14,7,1761
+100243,Sven Marin,30,Uruguay,Rhein Adler,Bundesklasse,CB,Defender,70,72,1654000.0,1700.0,177,82,Left,3,2,3,2,65,59,55,58,77,71,38,5,1,2371
+100244,Rafael Park,27,France,Kings Park,Crown League,ST,Forward,81,89,8114000.0,12500.0,182,86,Left,3,1,2,2,75,85,71,86,59,76,15,10,4,880
+100245,Nicolas Almeida,27,USA,Eisern Berlin,Bundesklasse,LWB,Defender,72,72,1084000.0,1700.0,175,72,Right,5,2,3,5,64,46,75,55,70,78,30,3,4,1454
+100246,Mamadou Haaland,29,Mexico,Schwarzwald SV,Bundesklasse,ST,Forward,67,67,813000.0,1000.0,191,75,Right,4,1,1,3,69,65,62,67,30,75,18,10,2,1303
+100247,Omar Bauer,27,Colombia,Real Montaña,Continental A,RB,Defender,71,71,1477000.0,1200.0,182,70,Right,5,2,3,3,55,63,56,68,71,72,24,2,4,1805
+100248,Aaron Janssen,23,Denmark,Kings Park,Crown League,ST,Forward,70,73,2394000.0,3600.0,188,80,Right,3,3,2,4,89,68,61,71,64,57,33,13,7,2150
+100249,Mateo Janssen,28,Germany,Hansa Nord,Bundesklasse,LB,Defender,69,69,1105000.0,1700.0,176,83,Right,5,2,4,3,67,53,67,58,73,74,30,3,4,1631
+100250,Daichi Ferreira,23,Morocco,Bayern Stein,Bundesklasse,GK,Goalkeeper,70,73,1143000.0,1600.0,180,77,Left,2,1,3,4,51,42,60,46,45,72,27,0,1,2386
+100251,Luca Haaland,35,Colombia,Riverside FC,Crown League,RW,Forward,64,64,726000.0,1100.0,181,67,Right,4,2,1,4,75,64,58,68,50,64,38,17,1,2495
+100252,Aaron Schmidt,16,Portugal,Marseille Bleu,Ligue Première,CDM,Midfielder,64,74,1446000.0,1300.0,186,79,Right,5,2,4,3,65,52,64,70,55,64,26,7,4,1806
+100253,Aaron Lindqvist,19,Croatia,Napoli Sud,Serie Oro,ST,Forward,69,77,3241000.0,3600.0,173,73,Right,2,1,3,3,72,76,68,75,46,60,22,16,6,1104
+100254,Mamadou Reyes,19,Croatia,Atlético Sol,Continental A,CAM,Midfielder,65,73,1613000.0,2500.0,177,84,Right,5,1,3,2,60,71,70,58,62,65,15,4,6,1057
+100255,Sven Lindqvist,25,Norway,Napoli Sud,Serie Oro,CF,Forward,71,76,3029000.0,4400.0,176,78,Left,2,2,2,3,69,70,68,69,41,72,16,6,7,966
+100256,Aaron Marchetti,21,Italy,Crystal Rovers,Crown League,LWB,Defender,62,73,962000.0,1100.0,185,79,Right,5,4,3,4,57,36,53,47,72,63,25,3,2,1865
+100257,Carlos Nielsen,20,Brazil,Rhein Adler,Bundesklasse,GK,Goalkeeper,67,77,1547000.0,2000.0,192,69,Right,1,1,2,3,44,34,48,44,46,66,18,0,1,1137
+100258,Kenji Diallo,22,Colombia,Kings Park,Crown League,ST,Forward,73,80,2675000.0,2700.0,174,91,Right,5,3,4,3,69,80,59,80,47,69,17,11,1,889
+100259,Kenji Marin,24,South Korea,Costa Azul,Continental A,CB,Defender,62,71,551000.0,1000.0,168,88,Right,2,2,2,3,63,40,46,46,57,69,12,0,2,967
+100260,Samir Marin,22,Netherlands,Northgate United,Crown League,ST,Forward,71,77,2921000.0,3600.0,189,73,Right,3,1,2,3,72,74,68,70,52,64,31,16,7,1899
+100261,Leon Romano,22,Sweden,Amsterdam Lance,Eredivisie Pro,RW,Forward,73,75,3304000.0,4100.0,183,84,Right,5,2,3,3,81,76,76,75,56,70,32,18,7,2352
+100262,Mateo Haaland,30,Sweden,Napoli Sud,Serie Oro,CDM,Midfielder,70,70,1210000.0,1200.0,174,76,Right,5,2,2,3,62,61,75,77,69,60,34,9,11,2234
+100263,Sven Haaland,25,Netherlands,Roma Vera,Serie Oro,RM,Midfielder,61,65,1127000.0,1200.0,186,76,Right,3,1,1,2,71,43,65,62,55,59,23,4,3,1071
+100264,Mateo Adeyemi,23,Uruguay,Costa Azul,Continental A,CM,Midfielder,59,64,397000.0,1000.0,182,71,Right,4,3,4,3,53,42,62,60,49,62,24,4,6,2079
+100265,Samir Novak,21,Serbia,Riverside FC,Crown League,RM,Midfielder,68,78,2548000.0,2000.0,182,87,Right,5,1,3,2,74,54,70,83,62,77,31,8,10,2225
+100266,Tariq Marin,24,Croatia,Rotterdam Haven,Eredivisie Pro,RW,Forward,81,87,7543000.0,5900.0,178,73,Right,4,1,3,1,81,89,61,81,53,77,24,18,9,1309
+100267,Eli Costa,25,Mexico,Napoli Sud,Serie Oro,CF,Forward,80,87,6978000.0,4800.0,179,74,Left,3,3,3,2,83,89,68,88,54,68,35,23,10,1849
+100268,Theo Reyes,25,Morocco,Olympia Verde,Continental A,CAM,Midfielder,65,65,958000.0,1400.0,182,80,Right,4,2,5,3,65,62,68,68,60,66,22,8,2,1012
+100269,Omar Marin,22,South Korea,Crystal Rovers,Crown League,CM,Midfielder,67,75,1895000.0,1900.0,178,84,Right,4,1,4,3,57,57,71,67,67,68,13,4,2,722
+100270,Theo Lindqvist,30,Ghana,Milano Nero,Serie Oro,RB,Defender,70,70,991000.0,1000.0,176,81,Right,4,1,3,3,80,50,60,64,77,79,29,0,0,1485
+100271,Bruno Romano,18,Mexico,Schwarzwald SV,Bundesklasse,GK,Goalkeeper,60,67,708000.0,1000.0,184,85,Right,5,3,2,4,25,32,44,38,27,45,30,0,0,1576
+100272,Hugo Petrov,26,Brazil,Groningen Noord,Eredivisie Pro,LW,Forward,73,74,1281000.0,1100.0,184,77,Right,3,3,4,3,77,76,74,76,40,58,26,19,8,1622
+100273,Kai Costa,28,Denmark,Sporting Lumen,Continental A,LM,Midfielder,78,79,2581000.0,2300.0,190,67,Right,2,2,2,2,72,79,90,76,70,77,27,6,9,1804
+100274,Mamadou Bianchi,16,Spain,Torino Granata,Serie Oro,LM,Midfielder,62,71,1686000.0,2500.0,194,75,Left,4,2,2,3,63,64,71,64,37,61,14,3,3,1126
+100275,Ivan Toure,31,South Korea,Eisern Berlin,Bundesklasse,LW,Forward,56,56,344000.0,1000.0,176,90,Right,2,1,3,4,60,56,52,52,31,47,15,10,1,825
+100276,Bruno Schmidt,29,France,Rhein Adler,Bundesklasse,LB,Defender,59,59,312000.0,1000.0,181,72,Right,3,1,4,2,40,42,41,39,65,67,22,2,0,1082
+100277,Kai Silva,23,Argentina,Crystal Rovers,Crown League,GK,Goalkeeper,81,89,6019000.0,6400.0,196,82,Right,2,2,3,2,48,52,71,54,46,76,38,0,0,1893
+100278,Joel Stankovic,22,Colombia,Eisern Berlin,Bundesklasse,CDM,Midfielder,77,82,3986000.0,5500.0,187,64,Right,4,3,3,3,65,68,82,79,59,87,26,13,8,1286
+100279,Yusuf Dubois,25,USA,Groningen Noord,Eredivisie Pro,CDM,Midfielder,64,71,774000.0,1000.0,192,65,Right,2,1,2,3,79,59,65,51,45,71,35,8,8,2795
+100280,Mamadou Marin,20,Germany,Atlético Sol,Continental A,LWB,Defender,66,74,1692000.0,2200.0,187,82,Left,1,1,2,4,59,49,82,56,67,61,27,1,4,2317
+100281,Tom Kovac,27,Japan,Paris Étoile,Ligue Première,LB,Defender,80,80,2749000.0,2700.0,188,63,Left,1,1,3,4,71,51,69,65,81,78,20,0,2,1487
+100282,Nikola Stankovic,24,Netherlands,Costa Azul,Continental A,RM,Midfielder,83,89,6970000.0,5100.0,182,70,Right,2,2,2,3,74,76,83,87,81,71,30,5,9,2065
+100283,Samir Rossi,24,Japan,Ironside AFC,Crown League,GK,Goalkeeper,65,65,655000.0,1000.0,191,77,Left,5,3,2,4,42,34,37,44,51,63,25,0,0,1983
+100284,Samir Rossi,29,South Korea,Groningen Noord,Eredivisie Pro,CAM,Midfielder,81,81,2715000.0,3000.0,173,87,Right,4,1,3,2,88,76,81,81,84,84,19,4,13,1059
+100285,Mateo Diallo,32,Uruguay,Atlético Sol,Continental A,LM,Midfielder,66,66,932000.0,1300.0,186,75,Right,3,1,3,4,56,67,54,66,60,59,38,12,10,2711
+100286,Hugo Novak,30,Uruguay,Utrecht Dom,Eredivisie Pro,RB,Defender,66,67,594000.0,1000.0,173,79,Right,1,3,3,3,64,38,50,54,74,59,35,5,8,2707
+100287,Rafael Sato,28,USA,Torino Granata,Serie Oro,RB,Defender,72,72,1545000.0,1200.0,174,76,Right,1,1,3,4,67,39,53,53,77,74,23,1,2,1408
+100288,Sergio Schmidt,22,Japan,Schwarzwald SV,Bundesklasse,GK,Goalkeeper,66,74,1795000.0,1900.0,186,82,Right,3,2,2,3,30,34,37,37,43,74,9,0,0,516
+100289,Diego Kovac,20,Sweden,Monaco Rocher,Ligue Première,CB,Defender,71,78,1623000.0,1400.0,178,96,Right,1,1,1,4,61,46,62,54,75,72,20,0,3,1469
+100290,Sergio Volkov,22,Japan,Atlético Sol,Continental A,CM,Midfielder,78,86,5676000.0,6200.0,176,70,Right,2,3,2,4,73,68,82,85,75,71,14,5,7,847
+100291,Aleksandr Kovac,27,Norway,Lyon Sud,Ligue Première,GK,Goalkeeper,63,63,348000.0,1000.0,193,79,Right,5,1,3,4,37,25,54,34,37,60,15,0,0,1110
+100292,Dani Janssen,33,South Korea,Monaco Rocher,Ligue Première,ST,Forward,64,64,1009000.0,1000.0,183,76,Left,2,1,4,3,62,63,53,63,39,54,20,14,5,1224
+100293,Bruno Lindqvist,21,Serbia,Sporting Lumen,Continental A,GK,Goalkeeper,58,67,539000.0,1000.0,192,69,Left,5,2,2,4,28,25,46,33,37,46,21,0,0,1235
+100294,Theo Bianchi,17,Portugal,Riverside FC,Crown League,RM,Midfielder,70,75,1612000.0,2300.0,182,73,Right,3,1,3,4,70,61,83,78,56,53,23,5,3,1663
+100295,Nikola Ferreira,28,France,Torino Granata,Serie Oro,CF,Forward,72,72,2134000.0,1800.0,179,80,Right,4,4,2,3,77,71,68,67,42,54,29,13,5,2266
+100296,Adam Keller,22,USA,Amsterdam Lance,Eredivisie Pro,LWB,Defender,69,74,1865000.0,1600.0,186,80,Right,1,1,4,2,45,47,60,65,73,64,29,1,0,1363
+100297,Leon Ibrahim,28,Japan,Paris Étoile,Ligue Première,LB,Defender,62,65,660000.0,1000.0,191,76,Left,3,2,4,4,56,47,54,50,68,61,20,3,1,1695
+100298,Nicolas Almeida,24,Japan,Groningen Noord,Eredivisie Pro,GK,Goalkeeper,63,69,653000.0,1000.0,172,77,Right,4,3,3,4,41,35,52,50,46,59,25,0,0,1550
+100299,Sven Larsson,25,USA,Hansa Nord,Bundesklasse,RWB,Defender,76,79,2270000.0,3200.0,186,80,Left,4,1,2,4,65,51,61,67,80,76,14,2,1,855
+100300,Liam Rossi,30,Brazil,Rhein Adler,Bundesklasse,GK,Goalkeeper,69,69,1038000.0,1000.0,191,81,Left,3,3,3,3,43,32,48,48,45,69,10,0,0,675
+100301,Eli Weber,29,France,Crystal Rovers,Crown League,RB,Defender,67,67,858000.0,1000.0,183,78,Left,2,1,2,2,63,31,57,63,73,75,27,2,2,1255
+100302,Nikola Hart,19,Argentina,Costa Azul,Continental A,CAM,Midfielder,68,78,2155000.0,2300.0,198,72,Right,2,2,4,4,69,46,72,72,62,74,19,4,2,1491
+100303,Sven Romano,25,Belgium,Monaco Rocher,Ligue Première,CAM,Midfielder,59,65,775000.0,1000.0,183,67,Right,1,1,1,3,44,45,63,63,51,66,37,6,8,3020
+100304,Tom Weber,26,Italy,Roma Vera,Serie Oro,GK,Goalkeeper,68,76,1126000.0,1800.0,181,75,Right,4,2,1,3,43,34,51,51,51,65,23,0,0,1993
+100305,Sergio Okafor,23,Uruguay,Eisern Berlin,Bundesklasse,CF,Forward,76,82,5238000.0,6800.0,173,75,Right,4,1,2,4,71,78,61,70,54,75,21,11,1,1597
+100306,Leon Janssen,24,USA,Inter Lazio,Serie Oro,LM,Midfielder,69,69,1129000.0,1300.0,170,84,Left,1,1,2,3,61,58,73,74,62,65,29,9,6,2236
+100307,Ivan Bauer,22,Argentina,Kings Park,Crown League,CB,Defender,75,76,1826000.0,2800.0,183,71,Right,1,2,5,3,62,39,61,73,89,78,11,0,0,649
+100308,Jonas Mensah,31,France,Amsterdam Lance,Eredivisie Pro,ST,Forward,66,66,1491000.0,1400.0,176,79,Right,2,2,2,4,71,76,63,70,33,62,20,5,1,1728
+100309,Theo Vega,25,Belgium,Real Montaña,Continental A,RWB,Defender,62,67,686000.0,1000.0,188,81,Right,1,1,4,4,55,43,55,51,66,68,17,1,3,833
+100310,Theo Kovac,21,Brazil,Milano Nero,Serie Oro,RM,Midfielder,57,64,552000.0,1000.0,182,82,Right,4,2,3,4,52,54,66,59,50,57,34,4,3,2399
+100311,Andre Adeyemi,26,Colombia,Lyon Sud,Ligue Première,RW,Forward,60,61,751000.0,1000.0,180,78,Left,1,1,2,3,68,62,66,64,38,63,15,3,2,794
+100312,Adam Ferreira,20,Spain,Marseille Bleu,Ligue Première,ST,Forward,68,75,1526000.0,1400.0,185,90,Right,3,1,4,2,74,73,60,79,42,62,26,16,5,1511
+100313,Kenji Toure,27,Uruguay,Hansa Nord,Bundesklasse,LM,Midfielder,72,73,1168000.0,1500.0,178,63,Right,3,2,1,2,60,64,81,74,60,61,28,10,9,1994
+100314,Eli Dubois,24,Croatia,Hansa Nord,Bundesklasse,CDM,Midfielder,74,77,1901000.0,2500.0,195,78,Right,4,1,2,4,75,66,83,74,92,68,10,5,4,458
+100315,Tariq Schmidt,19,Ghana,Marseille Bleu,Ligue Première,CM,Midfielder,65,75,963000.0,1300.0,186,81,Right,5,3,4,3,69,68,71,67,65,54,23,3,6,1575
+100316,Victor Andersen,28,Japan,Northgate United,Crown League,LM,Midfielder,66,66,1097000.0,1000.0,174,72,Right,3,1,3,3,62,45,74,63,57,62,23,3,4,1355
+100317,Tariq Fischer,36,Denmark,Paris Étoile,Ligue Première,LM,Midfielder,67,67,485000.0,1000.0,181,67,Right,5,1,3,3,58,63,75,66,61,58,4,0,0,195
+100318,Sergio Weber,25,Germany,Lyon Sud,Ligue Première,ST,Forward,60,65,900000.0,1000.0,185,81,Right,5,1,3,3,64,74,55,59,38,54,10,3,1,795
+100319,Tariq Adeyemi,16,Brazil,Napoli Sud,Serie Oro,LWB,Defender,70,80,2295000.0,2900.0,178,80,Right,3,1,2,4,55,52,57,56,83,78,38,2,3,1799
+100320,Rafael Novak,30,USA,Ironside AFC,Crown League,RWB,Defender,82,82,4539000.0,5000.0,185,84,Right,4,1,2,4,56,67,72,64,84,82,27,1,6,1633
+100321,Kai Adeyemi,23,Ghana,Sporting Lumen,Continental A,RM,Midfielder,60,67,1406000.0,1600.0,181,66,Right,3,1,4,2,55,47,63,68,46,52,27,7,6,1979
+100322,Omar Schmidt,22,Senegal,Costa Azul,Continental A,LM,Midfielder,63,67,743000.0,1100.0,178,91,Right,5,2,2,4,71,56,64,55,44,57,23,7,5,1940
+100323,Ravi Rossi,18,Netherlands,Crystal Rovers,Crown League,LB,Defender,66,81,2702000.0,4200.0,189,76,Right,3,2,2,3,73,41,54,43,70,68,28,5,3,1649
+100324,Aaron Park,30,Mexico,Paris Étoile,Ligue Première,RM,Midfielder,69,69,866000.0,1000.0,183,70,Right,5,1,2,4,53,59,62,81,67,62,15,5,9,872
+100325,Rafael Diallo,24,Netherlands,Hansa Nord,Bundesklasse,GK,Goalkeeper,67,72,1502000.0,1900.0,190,75,Left,4,2,3,4,41,31,46,49,48,68,32,0,0,2066
+100326,Aleksandr Schmidt,23,Croatia,Groningen Noord,Eredivisie Pro,CDM,Midfielder,67,68,958000.0,1300.0,183,83,Left,1,2,2,3,74,55,75,70,63,64,24,6,8,1580
+100327,Liam Castro,21,England,Atlético Sol,Continental A,LM,Midfielder,59,60,568000.0,1000.0,181,79,Right,5,1,4,4,55,53,58,67,54,65,29,8,5,1500
+100328,Aleksandr Janssen,19,Colombia,Lyon Sud,Ligue Première,LWB,Defender,63,73,1605000.0,1900.0,188,70,Right,1,2,1,3,58,46,53,45,71,62,32,0,3,1586
+100329,Eli Silva,27,Spain,Costa Azul,Continental A,ST,Forward,71,73,1798000.0,2400.0,175,77,Right,4,2,4,4,78,79,63,84,59,71,24,16,5,1343
+100330,Luca Adeyemi,26,USA,Amsterdam Lance,Eredivisie Pro,LB,Defender,72,74,1337000.0,1400.0,188,79,Right,1,1,5,3,54,59,62,63,79,67,19,2,1,1078
+100331,Victor Bianchi,20,USA,Roma Vera,Serie Oro,LW,Forward,82,92,10548000.0,8000.0,174,82,Right,5,1,3,2,94,88,85,81,61,80,24,11,6,1595
+100332,Mateo Okafor,32,Colombia,Kings Park,Crown League,RW,Forward,77,77,2992000.0,4000.0,185,76,Left,5,3,2,2,79,76,76,80,40,73,21,15,11,1061
+100333,Kenji Reyes,29,Argentina,Kings Park,Crown League,LB,Defender,80,80,3377000.0,3400.0,179,77,Right,2,1,2,1,60,54,75,68,84,79,25,2,2,2151
+100334,Victor Stankovic,24,Netherlands,Crystal Rovers,Crown League,CDM,Midfielder,72,83,3420000.0,3900.0,190,75,Right,3,2,2,2,80,57,76,66,56,61,29,14,9,1358
+100335,Kai Marin,24,Belgium,Milano Nero,Serie Oro,RB,Defender,64,70,1143000.0,1700.0,176,68,Right,3,2,2,3,68,31,63,35,66,77,10,0,0,564
+100336,Leon Bauer,23,Ghana,Crystal Rovers,Crown League,GK,Goalkeeper,61,65,937000.0,1000.0,200,75,Right,3,2,2,4,35,25,43,40,38,56,16,0,0,1408
+100337,Adam Adeyemi,30,England,Lille Or,Ligue Première,CB,Defender,65,65,713000.0,1000.0,188,92,Right,3,1,2,4,52,37,55,36,68,64,20,1,3,1289
+100338,Andre Diallo,27,Italy,Riverside FC,Crown League,LWB,Defender,65,68,1132000.0,1100.0,179,72,Left,5,2,2,3,60,43,53,61,79,61,9,0,0,724
+100339,Rafael Castro,28,Croatia,Rhein Adler,Bundesklasse,LW,Forward,66,66,951000.0,1000.0,188,76,Left,5,1,2,3,69,69,50,66,55,60,24,16,3,1296
+100340,Joel Bianchi,27,Portugal,Sporting Lumen,Continental A,RWB,Defender,80,80,2977000.0,3600.0,182,63,Right,3,1,3,5,74,66,66,74,87,83,29,2,2,1823
+100341,Marco Petrov,34,France,Lyon Sud,Ligue Première,ST,Forward,68,68,1313000.0,1800.0,175,71,Right,2,1,1,4,64,77,63,72,31,64,33,15,5,1716
+100342,Leon Mensah,31,Brazil,Rotterdam Haven,Eredivisie Pro,CF,Forward,77,79,2800000.0,3000.0,180,80,Left,3,1,3,4,81,72,72,84,54,72,38,22,5,2137
+100343,Sven Marin,21,Uruguay,Inter Lazio,Serie Oro,RWB,Defender,66,71,1474000.0,1100.0,179,85,Right,2,3,4,2,55,46,60,60,66,65,22,0,2,1293
+100344,Sergio Larsson,28,USA,Costa Azul,Continental A,RW,Forward,91,91,9029000.0,13100.0,192,76,Right,2,1,3,2,99,96,78,95,69,80,19,17,4,1077
+100345,Theo Schmidt,37,Morocco,Northgate United,Crown League,ST,Forward,72,72,1115000.0,1100.0,190,71,Right,3,3,2,3,78,75,61,88,58,70,26,13,4,1456
+100346,Theo Janssen,24,Ghana,Hansa Nord,Bundesklasse,RW,Forward,61,64,726000.0,1000.0,177,77,Right,1,1,2,3,66,67,64,76,51,63,28,16,3,1476
+100347,Nikola Mensah,26,Portugal,Marseille Bleu,Ligue Première,CM,Midfielder,70,71,838000.0,1100.0,173,72,Right,3,3,2,3,66,65,70,71,67,62,13,6,3,982
+100348,Ravi Rossi,25,Spain,Amsterdam Lance,Eredivisie Pro,RB,Defender,73,73,2351000.0,3400.0,183,81,Right,5,1,3,4,65,66,71,61,92,70,13,0,0,1103
+100349,Noah Weber,24,Norway,Lyon Sud,Ligue Première,LWB,Defender,70,72,1115000.0,1700.0,178,73,Right,1,1,2,2,66,46,61,58,76,69,19,0,1,1495
+100350,Joel Vega,25,Colombia,Napoli Sud,Serie Oro,LB,Defender,75,75,2222000.0,3200.0,172,70,Right,1,1,3,3,74,58,73,65,82,90,38,5,2,1921
+100351,Tariq Weber,22,Brazil,Olympia Verde,Continental A,LW,Forward,63,63,628000.0,1000.0,178,77,Left,4,3,3,4,67,67,49,67,39,56,24,8,3,1461
+100352,Aaron Janssen,18,England,Marseille Bleu,Ligue Première,LW,Forward,54,65,1324000.0,1700.0,172,67,Right,4,3,3,3,62,63,45,55,32,60,34,15,5,1952
+100353,Adam Stankovic,19,Colombia,Rotterdam Haven,Eredivisie Pro,RM,Midfielder,77,88,4895000.0,4600.0,180,64,Right,1,3,3,3,82,72,68,72,74,72,27,9,9,1889
+100354,Mateo Fischer,24,Mexico,Utrecht Dom,Eredivisie Pro,LW,Forward,63,68,931000.0,1000.0,178,67,Left,3,1,2,4,69,69,52,65,45,58,32,12,6,2153
+100355,Leon Okafor,16,Germany,Lyon Sud,Ligue Première,CB,Defender,65,78,1309000.0,1500.0,179,69,Left,4,1,4,3,54,53,52,56,74,69,17,1,3,1020
+100356,Mamadou Tanaka,26,Argentina,Crystal Rovers,Crown League,CB,Defender,72,72,1206000.0,1900.0,173,77,Right,4,1,3,3,59,57,64,49,77,71,8,0,1,431
+100357,Nicolas Moretti,17,Norway,Ironside AFC,Crown League,CDM,Midfielder,72,81,4765000.0,6000.0,185,69,Right,3,3,3,2,76,64,82,77,65,74,16,7,3,788
+100358,Adam Castro,20,Nigeria,Northgate United,Crown League,CAM,Midfielder,61,62,723000.0,1000.0,188,75,Right,1,3,3,3,50,46,63,73,53,57,26,8,4,2058
+100359,Tom Rossi,24,USA,Hansa Nord,Bundesklasse,CDM,Midfielder,67,72,1804000.0,2300.0,185,69,Right,4,2,2,2,63,73,74,66,66,66,23,6,7,1688
+100360,Pavel Marin,32,South Korea,Costa Azul,Continental A,CAM,Midfielder,77,79,3291000.0,3000.0,185,77,Right,3,2,3,3,81,73,82,82,76,69,21,4,4,1602
+100361,Samir Hart,20,Sweden,Rhein Adler,Bundesklasse,LM,Midfielder,87,94,12573000.0,10600.0,181,68,Right,3,1,2,3,84,83,89,89,81,78,30,12,11,2086
+100362,Aaron Keller,27,Colombia,Napoli Sud,Serie Oro,RW,Forward,77,77,3872000.0,4600.0,175,62,Left,2,1,2,3,80,91,66,83,55,80,20,10,4,1047
+100363,Yusuf Volkov,28,Morocco,Utrecht Dom,Eredivisie Pro,LB,Defender,72,72,1285000.0,1700.0,183,75,Left,5,1,2,2,71,51,66,73,72,57,14,1,4,849
+100364,Dani Rossi,33,South Korea,Bayern Stein,Bundesklasse,LM,Midfielder,60,60,635000.0,1000.0,183,89,Left,2,3,3,4,56,50,69,61,53,62,21,4,4,1568
+100365,Felix Toure,21,Croatia,Olympia Verde,Continental A,CB,Defender,64,73,1203000.0,1100.0,178,89,Right,1,2,2,3,58,43,55,48,76,60,17,2,2,1482
+100366,Daichi Bianchi,20,Croatia,Eisern Berlin,Bundesklasse,LWB,Defender,70,70,1551000.0,1500.0,183,65,Right,4,2,2,3,62,48,53,68,72,71,38,2,2,3273
+100367,Nicolas Ibrahim,25,Colombia,Inter Lazio,Serie Oro,CDM,Midfielder,66,72,1272000.0,1000.0,182,84,Right,2,1,3,3,62,61,65,67,68,69,18,4,4,1299
+100368,Luca Moretti,26,Denmark,Sporting Lumen,Continental A,RB,Defender,60,67,521000.0,1000.0,182,93,Right,4,2,5,3,57,32,48,37,63,60,23,2,4,1441
+100369,Carlos Marin,20,Brazil,Real Montaña,Continental A,LM,Midfielder,80,84,3648000.0,2600.0,177,84,Left,3,1,3,2,78,69,84,74,84,76,26,7,9,1701
+100370,Luca Dubois,29,Morocco,Atlético Sol,Continental A,CDM,Midfielder,73,74,1841000.0,1500.0,183,70,Right,5,3,2,3,70,52,78,75,74,74,25,8,4,2134
+100371,Nikola Bauer,29,Mexico,Northgate United,Crown League,LB,Defender,67,67,1650000.0,1600.0,169,73,Right,2,2,2,3,58,45,66,50,76,69,28,0,1,1445
+100372,Emre Sato,25,Belgium,Groningen Noord,Eredivisie Pro,CAM,Midfielder,73,74,2214000.0,2800.0,191,76,Left,5,2,2,3,70,67,77,89,66,69,18,8,1,866
+100373,Bruno Ibrahim,24,Uruguay,Napoli Sud,Serie Oro,RW,Forward,76,76,4906000.0,5500.0,182,70,Left,4,2,1,2,80,79,91,80,50,63,26,8,2,1658
+100374,Hugo Tanaka,31,Portugal,Schwarzwald SV,Bundesklasse,RWB,Defender,61,61,387000.0,1000.0,183,70,Right,3,2,2,4,53,38,55,40,60,62,20,2,3,1497
+100375,Felix Silva,26,Brazil,Rotterdam Haven,Eredivisie Pro,ST,Forward,71,71,2110000.0,2100.0,169,77,Right,1,2,3,3,69,76,68,65,49,60,32,15,9,2383
+100376,Aaron Park,24,Italy,Torino Granata,Serie Oro,LW,Forward,71,77,1384000.0,2000.0,184,81,Right,1,3,3,2,80,76,58,75,69,78,22,11,5,1141
+100377,Liam Tanaka,23,Croatia,Roma Vera,Serie Oro,LW,Forward,65,69,923000.0,1300.0,184,84,Right,2,2,2,3,62,68,59,73,40,53,19,11,1,1215
+100378,Noah Almeida,17,Argentina,Torino Granata,Serie Oro,RM,Midfielder,67,79,2889000.0,4500.0,186,66,Right,5,2,1,3,65,62,72,71,65,63,24,4,5,1768
+100379,Theo Larsson,22,England,Rhein Adler,Bundesklasse,RW,Forward,64,70,1781000.0,1900.0,187,62,Right,2,2,3,4,66,60,67,67,37,53,19,9,3,1445
+100380,Kenji Toure,26,Uruguay,Milano Nero,Serie Oro,RWB,Defender,65,69,1003000.0,1000.0,189,74,Right,4,1,2,2,51,52,59,48,73,80,24,0,1,1312
+100381,Emre Bianchi,20,Denmark,Ironside AFC,Crown League,CDM,Midfielder,70,75,2273000.0,2000.0,178,85,Right,1,1,3,4,63,59,74,69,56,67,23,4,6,1808
+100382,Ivan Romano,28,Denmark,Eisern Berlin,Bundesklasse,RB,Defender,68,68,756000.0,1000.0,182,74,Right,4,1,4,2,66,40,65,58,68,70,21,1,3,1449
+100383,Ivan Adeyemi,22,Morocco,Crystal Rovers,Crown League,CM,Midfielder,63,73,1197000.0,1200.0,182,87,Left,2,2,2,3,71,54,68,65,70,46,21,5,5,1388
+100384,Tom Keller,26,Spain,Amsterdam Lance,Eredivisie Pro,LWB,Defender,81,82,3557000.0,2800.0,177,66,Left,4,1,1,4,70,59,73,68,81,90,29,3,8,1511
+100385,Sven Marchetti,26,Italy,Northgate United,Crown League,RM,Midfielder,69,69,1076000.0,1000.0,186,81,Left,1,1,2,3,57,59,67,72,60,67,21,5,7,1071
+100386,Dani Reyes,23,Italy,Kings Park,Crown League,LWB,Defender,74,83,3088000.0,2200.0,185,76,Left,5,2,3,3,70,64,62,50,81,72,11,0,1,641
+100387,Sven Vega,24,Morocco,Rhein Adler,Bundesklasse,ST,Forward,81,83,5396000.0,6800.0,174,80,Right,5,2,2,3,79,86,69,75,57,87,27,11,5,1838
+100388,Nikola Kovac,19,Serbia,Groningen Noord,Eredivisie Pro,RWB,Defender,73,86,2433000.0,2900.0,177,78,Right,1,2,3,2,71,42,57,56,77,76,22,1,2,1832
+100389,Victor Hart,28,Ghana,Olympia Verde,Continental A,CDM,Midfielder,77,77,2863000.0,3700.0,182,83,Right,1,2,2,3,81,69,84,80,70,68,27,4,11,1278
+100390,Carlos Volkov,23,Croatia,Rotterdam Haven,Eredivisie Pro,CM,Midfielder,71,81,2488000.0,2200.0,188,85,Right,4,3,3,4,70,57,68,72,71,67,11,3,1,966
+100391,Kai Petrov,22,Colombia,Lyon Sud,Ligue Première,LW,Forward,71,78,2777000.0,4200.0,182,78,Right,5,1,4,4,75,78,72,75,26,78,21,10,4,1450
+100392,Bruno Petrov,19,Colombia,Utrecht Dom,Eredivisie Pro,ST,Forward,67,71,1804000.0,1100.0,187,85,Left,5,1,1,3,71,73,61,72,48,64,36,22,8,2262
+100393,Luca Ibrahim,24,Nigeria,Inter Lazio,Serie Oro,CB,Defender,93,96,9275000.0,8500.0,193,64,Right,1,2,3,4,77,74,90,79,97,96,24,2,5,1388
+100394,Rafael Nielsen,21,Italy,Kings Park,Crown League,LM,Midfielder,74,86,2678000.0,3400.0,185,74,Right,5,1,2,3,64,82,79,74,61,70,15,4,3,1234
+100395,Ivan Schmidt,25,Spain,Paris Étoile,Ligue Première,ST,Forward,71,79,2572000.0,3700.0,184,76,Right,5,1,3,3,74,87,63,69,48,66,27,14,5,2028
+100396,Nicolas Diallo,21,Ghana,Eindhoven Volt,Eredivisie Pro,LB,Defender,70,76,1041000.0,1100.0,177,74,Right,4,1,2,2,57,40,58,58,71,71,29,2,3,1860
+100397,Aaron Stankovic,29,Germany,Lille Or,Ligue Première,CAM,Midfielder,69,69,921000.0,1000.0,182,73,Right,1,1,3,3,58,74,76,71,77,79,21,5,6,1532
+100398,Samir Marchetti,21,USA,Amsterdam Lance,Eredivisie Pro,CB,Defender,65,76,1512000.0,1900.0,182,80,Right,2,2,3,5,52,48,57,54,66,65,27,0,5,1510
+100399,Nicolas Silva,18,Netherlands,Paris Étoile,Ligue Première,LWB,Defender,60,74,1358000.0,1000.0,178,85,Right,1,1,3,4,54,39,49,45,61,64,20,1,3,1546
+100400,Luca Keller,25,Norway,Napoli Sud,Serie Oro,RWB,Defender,75,80,3095000.0,2200.0,177,75,Right,5,2,2,3,70,49,64,56,72,77,30,1,2,1816
+100401,Noah Sato,27,USA,Bayern Stein,Bundesklasse,CDM,Midfielder,74,74,2191000.0,2300.0,191,77,Right,2,1,2,4,76,65,78,80,70,79,28,6,7,1288
+100402,Rafael Silva,25,Netherlands,Eisern Berlin,Bundesklasse,CB,Defender,70,78,2552000.0,3700.0,180,74,Right,3,1,3,2,58,48,65,52,71,68,21,0,1,1727
+100403,Felix Larsson,25,Sweden,Marseille Bleu,Ligue Première,LW,Forward,77,83,5076000.0,4100.0,174,61,Right,1,2,3,4,77,78,65,80,60,69,33,19,9,2430
+100404,Tariq Haaland,25,Norway,Monaco Rocher,Ligue Première,GK,Goalkeeper,71,74,1291000.0,1000.0,187,74,Right,1,1,2,3,45,33,35,54,52,58,17,0,0,891
+100405,Liam Castro,25,South Korea,Sporting Lumen,Continental A,CAM,Midfielder,67,73,998000.0,1000.0,180,74,Right,1,2,3,4,66,62,63,69,52,64,26,7,10,2227
+100406,Hugo Moretti,28,Ghana,Crystal Rovers,Crown League,CM,Midfielder,80,83,3437000.0,4100.0,179,80,Left,1,2,5,2,76,77,80,83,76,68,24,7,4,1151
+100407,Liam Bianchi,23,Serbia,Riverside FC,Crown League,LWB,Defender,85,95,8779000.0,5500.0,183,74,Right,4,1,3,3,88,58,73,68,86,95,10,0,1,620
+100408,Omar Dubois,21,France,Eindhoven Volt,Eredivisie Pro,RW,Forward,68,80,3376000.0,4900.0,177,81,Right,2,2,3,5,72,68,69,70,48,60,15,6,2,1210
+100409,Leon Romano,26,Portugal,Lille Or,Ligue Première,RWB,Defender,82,86,3458000.0,3400.0,165,73,Right,2,2,3,3,73,52,71,70,86,72,37,4,7,2541
+100410,Bruno Kovac,24,Denmark,Eindhoven Volt,Eredivisie Pro,GK,Goalkeeper,73,79,2261000.0,3200.0,183,83,Right,2,4,2,4,51,38,61,50,45,70,38,0,0,1803
+100411,Kenji Stankovic,31,Sweden,Lyon Sud,Ligue Première,RM,Midfielder,64,64,631000.0,1000.0,177,85,Right,2,1,3,4,65,61,73,64,58,69,25,8,5,1568
+100412,Felix Tanaka,28,Colombia,Napoli Sud,Serie Oro,CDM,Midfielder,64,69,1015000.0,1200.0,191,83,Right,5,1,3,3,60,56,65,59,45,56,16,2,5,1109
+100413,Carlos Moretti,31,England,Northgate United,Crown League,CB,Defender,75,75,1331000.0,1800.0,182,72,Right,4,2,2,3,78,49,55,70,73,76,28,0,4,2428
+100414,Victor Andersen,28,Germany,Rhein Adler,Bundesklasse,CF,Forward,65,65,1319000.0,1300.0,178,65,Right,1,2,3,4,71,71,53,73,36,70,19,10,4,1401
+100415,Jonas Lindqvist,29,Nigeria,Milano Nero,Serie Oro,ST,Forward,75,78,2186000.0,2600.0,181,77,Left,2,2,3,2,67,74,68,85,68,70,19,13,5,1703
+100416,Victor Andersen,23,Belgium,Lyon Sud,Ligue Première,GK,Goalkeeper,83,89,3748000.0,3700.0,178,80,Left,1,1,3,3,63,48,54,64,60,76,31,0,0,2725
+100417,Ivan Okafor,19,Spain,Atlético Sol,Continental A,LW,Forward,70,82,2460000.0,2300.0,182,85,Right,2,1,4,4,74,72,50,79,43,58,22,7,4,1165
+100418,Luca Volkov,30,USA,Groningen Noord,Eredivisie Pro,LWB,Defender,56,58,226000.0,1000.0,175,60,Right,2,1,2,2,57,30,66,45,50,60,19,2,1,1027
+100419,Tariq Sato,26,Croatia,Bayern Stein,Bundesklasse,ST,Forward,71,73,1936000.0,1900.0,192,80,Left,5,2,2,4,68,73,68,75,55,73,23,13,7,1597
+100420,Eli Marchetti,17,Serbia,Rotterdam Haven,Eredivisie Pro,GK,Goalkeeper,71,82,3685000.0,5700.0,188,65,Right,5,1,3,3,47,38,61,51,51,72,27,0,1,1850
+100421,Mateo Kovac,31,Denmark,Olympia Verde,Continental A,RB,Defender,77,80,1933000.0,2400.0,180,80,Right,3,1,4,4,72,55,73,61,81,78,22,1,1,1160
+100422,Kenji Reyes,30,Argentina,Crystal Rovers,Crown League,RM,Midfielder,72,72,1788000.0,1600.0,169,81,Right,4,1,4,3,70,64,78,75,64,55,27,4,9,2038
+100423,Marco Andersen,23,Belgium,Sporting Lumen,Continental A,LWB,Defender,53,58,602000.0,1000.0,182,78,Right,5,2,3,3,58,34,42,43,61,55,30,0,0,1944
+100424,Aaron Lindqvist,23,Senegal,Torino Granata,Serie Oro,RWB,Defender,65,69,1069000.0,1300.0,193,77,Right,2,1,2,3,56,58,63,47,79,65,22,0,4,1678
+100425,Pavel Schmidt,22,South Korea,Hansa Nord,Bundesklasse,CAM,Midfielder,72,76,1735000.0,2800.0,181,58,Right,5,1,2,4,62,68,82,68,67,56,19,9,9,1335
+100426,Theo Marchetti,22,South Korea,Hansa Nord,Bundesklasse,LW,Forward,66,76,1743000.0,1700.0,177,74,Left,1,1,3,4,67,73,62,75,50,62,26,12,7,2257
+100427,Tom Stankovic,22,Japan,Rotterdam Haven,Eredivisie Pro,LB,Defender,76,79,3275000.0,3200.0,178,71,Right,5,1,4,4,70,47,55,63,74,78,32,2,4,1835
+100428,Adam Stankovic,26,Belgium,Utrecht Dom,Eredivisie Pro,RM,Midfielder,71,74,1504000.0,1700.0,184,83,Right,2,1,2,3,68,72,79,69,65,65,10,2,4,788
+100429,Samir Lindqvist,21,Serbia,Olympia Verde,Continental A,GK,Goalkeeper,66,74,1322000.0,1300.0,179,60,Left,2,2,3,2,44,34,43,42,47,68,38,0,0,1971
+100430,Tariq Tanaka,29,Germany,Utrecht Dom,Eredivisie Pro,CDM,Midfielder,85,85,5879000.0,5700.0,193,83,Right,2,4,1,4,85,78,89,98,76,90,26,7,11,1179
+100431,Mateo Diallo,32,USA,Kings Park,Crown League,CB,Defender,71,71,922000.0,1000.0,177,72,Left,4,2,2,3,64,45,61,57,72,74,26,5,4,1509
+100432,Daichi Mensah,24,South Korea,Napoli Sud,Serie Oro,GK,Goalkeeper,80,82,2980000.0,3300.0,188,70,Left,3,3,3,5,50,46,64,54,68,86,38,0,0,2909
+100433,Jonas Ferreira,31,Germany,Inter Lazio,Serie Oro,CAM,Midfielder,58,58,478000.0,1000.0,187,76,Left,5,2,1,3,51,62,62,48,42,48,19,7,6,1228
+100434,Yusuf Marchetti,23,Croatia,Sporting Lumen,Continental A,LM,Midfielder,71,74,2758000.0,4000.0,174,75,Right,5,1,3,4,70,63,72,81,66,72,21,2,5,1864
+100435,Aleksandr Volkov,28,Norway,Marseille Bleu,Ligue Première,CF,Forward,61,61,767000.0,1000.0,187,85,Right,3,1,3,4,65,66,53,76,39,60,16,9,7,1326
+100436,Mamadou Vega,20,Denmark,Lille Or,Ligue Première,RWB,Defender,60,67,755000.0,1200.0,180,68,Left,1,1,1,2,52,28,53,48,69,74,24,2,2,1380
+100437,Hugo Okafor,26,Japan,Rhein Adler,Bundesklasse,CF,Forward,70,74,3007000.0,2400.0,181,76,Left,2,3,5,3,63,76,73,74,34,64,38,7,7,1842
+100438,Kai Novak,26,Croatia,Schwarzwald SV,Bundesklasse,CB,Defender,68,73,1527000.0,2400.0,183,81,Left,3,1,2,3,65,44,66,56,68,72,23,5,1,1838
+100439,Kai Castro,18,England,Lille Or,Ligue Première,LW,Forward,73,81,4936000.0,7400.0,186,76,Right,5,3,2,3,73,76,58,79,45,66,8,3,2,596
+100440,Rafael Okafor,26,England,Rotterdam Haven,Eredivisie Pro,GK,Goalkeeper,70,70,722000.0,1100.0,183,79,Left,4,2,3,3,34,45,53,46,52,60,7,0,0,349
+100441,Daichi Tanaka,30,Sweden,Costa Azul,Continental A,RW,Forward,83,87,6215000.0,8000.0,174,80,Right,2,1,3,3,75,86,78,89,48,67,15,8,6,1210
+100442,Mateo Rossi,27,Nigeria,Bayern Stein,Bundesklasse,GK,Goalkeeper,77,77,1567000.0,1200.0,189,73,Right,5,1,1,2,50,42,56,62,58,72,18,0,0,885
+100443,Hugo Andersen,16,Portugal,Crystal Rovers,Crown League,GK,Goalkeeper,64,69,1061000.0,1700.0,186,84,Right,4,3,3,2,38,38,45,42,49,59,26,0,0,1910
+100444,Mateo Silva,22,Uruguay,Ironside AFC,Crown League,CM,Midfielder,70,74,2575000.0,3900.0,173,80,Right,5,1,3,3,66,69,76,66,56,68,30,9,3,2679
+100445,Diego Bianchi,20,Sweden,Rotterdam Haven,Eredivisie Pro,CM,Midfielder,60,69,748000.0,1000.0,184,77,Right,1,3,4,2,46,51,63,62,56,68,35,4,14,2338
+100446,Omar Andersen,25,Ghana,Eisern Berlin,Bundesklasse,LB,Defender,63,71,1253000.0,1800.0,173,59,Left,3,2,3,3,54,52,50,51,73,64,13,0,0,1001
+100447,Felix Weber,21,Colombia,Utrecht Dom,Eredivisie Pro,LB,Defender,82,91,5562000.0,8200.0,176,89,Right,4,1,1,2,71,52,71,68,96,83,13,1,2,966
+100448,Leon Reyes,28,France,Amsterdam Lance,Eredivisie Pro,ST,Forward,84,85,6807000.0,9700.0,188,77,Right,4,2,2,3,87,83,81,87,61,91,38,18,13,2496
+100449,Carlos Nielsen,23,Colombia,Rhein Adler,Bundesklasse,LWB,Defender,80,82,3687000.0,3400.0,180,79,Left,4,1,1,5,76,63,70,65,84,86,27,1,3,2053
+100450,Bruno Andersen,21,Spain,Ironside AFC,Crown League,GK,Goalkeeper,73,86,1818000.0,1600.0,186,71,Left,3,2,3,2,51,25,70,42,52,62,23,0,0,1395
+100451,Eli Lindqvist,25,Belgium,Rotterdam Haven,Eredivisie Pro,CDM,Midfielder,66,70,1670000.0,1700.0,176,75,Right,2,1,2,2,72,58,64,70,59,62,23,4,6,1268
+100452,Omar Bauer,26,Japan,Eisern Berlin,Bundesklasse,CM,Midfielder,78,80,2717000.0,2900.0,182,70,Right,3,1,3,2,83,64,82,80,80,75,32,7,5,2306
+100453,Joel Tanaka,23,Colombia,Bayern Stein,Bundesklasse,CAM,Midfielder,82,88,6975000.0,5800.0,191,78,Right,3,3,4,3,91,78,93,83,78,87,22,3,4,1577
+100454,Daichi Novak,18,Belgium,Milano Nero,Serie Oro,CDM,Midfielder,86,92,11589000.0,8400.0,186,89,Right,5,2,2,3,74,80,82,83,87,86,23,11,10,1596
+100455,Daichi Stankovic,27,Japan,Schwarzwald SV,Bundesklasse,CF,Forward,63,67,1103000.0,1300.0,183,71,Right,1,1,2,4,68,68,71,65,43,59,19,10,4,1045
+100456,Leon Novak,29,Mexico,Kings Park,Crown League,GK,Goalkeeper,75,75,1390000.0,1800.0,188,80,Right,2,2,3,2,48,38,56,61,66,75,17,0,0,1320
+100457,Sergio Dubois,29,Brazil,Rotterdam Haven,Eredivisie Pro,RWB,Defender,75,75,1246000.0,1700.0,184,78,Right,5,2,3,2,68,60,60,57,82,75,15,1,6,1277
+100458,Leon Toure,27,Japan,Paris Étoile,Ligue Première,ST,Forward,82,89,5588000.0,5800.0,182,63,Right,4,3,3,2,87,81,89,80,62,77,28,21,8,2286
+100459,Sergio Weber,21,USA,Kings Park,Crown League,RM,Midfielder,80,86,5753000.0,6400.0,182,63,Right,1,2,2,1,65,75,84,80,66,70,25,15,7,1230
+100460,Sergio Nielsen,27,Argentina,Napoli Sud,Serie Oro,CAM,Midfielder,74,78,2374000.0,1900.0,176,67,Right,1,2,4,3,76,67,77,74,71,80,27,7,10,2378
+100461,Kai Marchetti,18,Senegal,Atlético Sol,Continental A,LWB,Defender,66,77,1987000.0,2300.0,172,69,Left,2,1,4,4,62,38,64,51,67,70,15,1,2,843
+100462,Sven Okafor,21,Nigeria,Eisern Berlin,Bundesklasse,LWB,Defender,81,92,4605000.0,5100.0,186,77,Right,5,2,2,2,74,62,81,69,85,80,15,0,2,1114
+100463,Ravi Reyes,27,England,Lyon Sud,Ligue Première,LWB,Defender,69,72,1747000.0,1600.0,191,85,Right,1,1,2,2,71,54,58,47,67,70,19,2,0,1362
+100464,Tom Toure,25,Brazil,Hansa Nord,Bundesklasse,RM,Midfielder,61,71,1128000.0,1000.0,176,78,Left,1,1,2,4,56,53,62,62,53,58,29,8,7,1958
+100465,Omar Schmidt,24,Colombia,Roma Vera,Serie Oro,RM,Midfielder,70,77,1879000.0,2000.0,181,69,Left,4,3,2,2,71,48,79,69,65,61,20,2,3,917
+100466,Nikola Toure,25,Denmark,Kings Park,Crown League,RW,Forward,67,73,1932000.0,2600.0,191,70,Right,2,1,3,3,77,73,58,69,47,54,26,7,3,1390
+100467,Yusuf Schmidt,21,Japan,Olympia Verde,Continental A,LWB,Defender,51,53,224000.0,1000.0,178,67,Right,1,3,2,3,38,25,44,32,49,48,29,1,2,1716
+100468,Tariq Keller,18,France,Marseille Bleu,Ligue Première,CAM,Midfielder,64,72,1440000.0,1100.0,174,69,Right,5,2,4,4,58,55,60,63,62,52,26,2,11,2030
+100469,Theo Costa,26,Morocco,Real Montaña,Continental A,RM,Midfielder,74,78,1260000.0,1300.0,173,64,Right,3,2,4,3,73,55,75,70,76,82,32,9,10,2238
+100470,Bruno Ibrahim,25,USA,Riverside FC,Crown League,RB,Defender,72,75,1673000.0,1400.0,181,66,Left,2,2,4,3,61,51,65,57,79,80,16,2,2,1083
+100471,Omar Diallo,21,Sweden,Sporting Lumen,Continental A,LB,Defender,80,82,5194000.0,3400.0,183,72,Left,2,1,2,3,70,52,57,74,82,87,17,0,0,1438
+100472,Dani Adeyemi,33,Japan,Sporting Lumen,Continental A,CF,Forward,75,77,1508000.0,1400.0,185,83,Right,5,1,4,4,75,72,70,84,58,79,11,7,4,524
+100473,Emre Vega,22,Argentina,Lille Or,Ligue Première,ST,Forward,68,72,1765000.0,2200.0,175,85,Right,3,1,2,2,67,68,63,77,56,61,29,14,6,2346
+100474,Mamadou Almeida,27,Morocco,Real Montaña,Continental A,LW,Forward,86,86,5921000.0,8700.0,183,76,Right,5,2,3,2,85,94,81,95,64,78,31,20,3,2737
+100475,Mamadou Volkov,30,Uruguay,Kings Park,Crown League,GK,Goalkeeper,58,62,349000.0,1000.0,185,88,Right,1,2,3,2,25,25,45,36,31,55,23,0,0,1596
+100476,Carlos Nielsen,26,Norway,Utrecht Dom,Eredivisie Pro,RW,Forward,66,69,1552000.0,1000.0,177,77,Right,3,2,3,3,80,71,51,65,42,60,23,8,5,2024
+100477,Marco Ibrahim,28,England,Costa Azul,Continental A,LW,Forward,81,81,4858000.0,5300.0,179,73,Right,4,1,1,4,84,84,73,76,59,80,35,22,9,1841
+100478,Sergio Novak,23,Denmark,Inter Lazio,Serie Oro,RB,Defender,69,75,1925000.0,1900.0,180,76,Right,3,2,3,2,60,50,55,55,62,78,28,2,2,1418
+100479,Hugo Marin,23,USA,Kings Park,Crown League,CB,Defender,73,77,1780000.0,2800.0,176,82,Right,4,2,2,5,75,51,74,69,82,68,28,2,4,2157
+100480,Omar Adeyemi,24,Spain,Napoli Sud,Serie Oro,LWB,Defender,70,73,1890000.0,2100.0,182,81,Right,3,1,4,3,59,43,73,55,64,66,33,1,3,1599
+100481,Eli Reyes,22,Brazil,Inter Lazio,Serie Oro,LW,Forward,77,83,4975000.0,7800.0,190,68,Right,3,1,3,2,81,82,74,81,64,81,29,16,4,1459
+100482,Noah Hart,25,Senegal,Atlético Sol,Continental A,GK,Goalkeeper,68,70,1409000.0,1600.0,184,77,Right,1,1,4,3,43,36,46,42,48,66,33,0,1,2578
+100483,Joel Andersen,31,Brazil,Groningen Noord,Eredivisie Pro,CDM,Midfielder,72,72,1221000.0,1300.0,173,71,Right,3,3,3,1,73,63,78,73,72,60,11,4,5,549
+100484,Aleksandr Marchetti,22,Ghana,Sporting Lumen,Continental A,CM,Midfielder,68,70,1372000.0,1300.0,186,83,Right,2,2,4,4,63,74,74,71,54,54,27,4,11,2395
+100485,Jonas Marchetti,30,Ghana,Roma Vera,Serie Oro,ST,Forward,69,69,735000.0,1000.0,182,77,Right,5,2,3,4,72,73,67,69,56,56,13,1,2,1139
+100486,Diego Ibrahim,24,Germany,Eisern Berlin,Bundesklasse,RWB,Defender,75,79,2550000.0,2500.0,188,77,Right,3,2,3,2,63,44,72,58,71,82,23,0,2,1549
+100487,Liam Weber,19,Netherlands,Costa Azul,Continental A,LW,Forward,68,77,2764000.0,4100.0,174,75,Right,1,2,3,3,64,73,57,66,41,57,20,10,6,1153
+100488,Aleksandr Nielsen,28,Morocco,Rotterdam Haven,Eredivisie Pro,RW,Forward,69,73,1884000.0,2900.0,174,80,Right,4,1,3,3,80,70,60,70,36,62,20,7,3,1229
+100489,Mateo Almeida,28,Italy,Lille Or,Ligue Première,RM,Midfielder,79,85,2944000.0,4700.0,182,73,Right,4,2,3,4,67,83,92,79,60,67,19,4,5,1565
+100490,Andre Vega,27,Morocco,Rhein Adler,Bundesklasse,LWB,Defender,84,87,4178000.0,5000.0,174,89,Right,3,1,3,4,83,66,89,74,91,86,15,0,2,1315
+100491,Liam Okafor,29,Croatia,Roma Vera,Serie Oro,LWB,Defender,66,67,673000.0,1000.0,180,84,Right,1,1,4,4,56,57,58,50,69,68,12,0,1,634
+100492,Emre Okafor,25,Denmark,Riverside FC,Crown League,CM,Midfielder,76,82,3500000.0,3500.0,178,72,Right,3,2,3,4,80,70,84,80,74,67,10,3,4,868
+100493,Ivan Ibrahim,33,Uruguay,Roma Vera,Serie Oro,CB,Defender,73,73,1579000.0,1300.0,184,66,Right,5,1,2,2,64,56,61,51,84,68,34,1,4,1881
+100494,Felix Costa,21,Croatia,Riverside FC,Crown League,RWB,Defender,68,73,1881000.0,2400.0,176,69,Right,3,1,2,2,64,55,63,63,77,64,17,2,0,1470
+100495,Jonas Hart,31,Nigeria,Atlético Sol,Continental A,LB,Defender,62,64,893000.0,1000.0,184,77,Right,4,2,3,3,56,28,48,44,65,66,16,1,2,952
+100496,Yusuf Almeida,25,Mexico,Milano Nero,Serie Oro,LWB,Defender,63,64,542000.0,1000.0,183,80,Right,2,3,3,2,61,46,55,61,69,64,38,2,4,1875
+100497,Felix Park,30,Senegal,Torino Granata,Serie Oro,RM,Midfielder,73,73,1209000.0,1000.0,179,69,Right,5,1,2,3,80,52,83,73,75,70,22,7,4,1648
+100498,Noah Silva,25,France,Hansa Nord,Bundesklasse,LWB,Defender,74,78,1769000.0,1400.0,184,73,Right,2,4,3,2,68,48,70,62,76,84,34,7,5,2162
+100499,Luca Hart,24,Belgium,Kings Park,Crown League,CB,Defender,71,79,2826000.0,4200.0,179,70,Left,4,1,3,3,65,61,60,61,80,80,4,0,0,276
+100500,Diego Dubois,23,Serbia,Atlético Sol,Continental A,ST,Forward,69,69,1335000.0,2000.0,189,60,Right,2,3,3,3,75,74,57,73,45,77,19,12,4,886
+100501,Omar Novak,19,Spain,Riverside FC,Crown League,GK,Goalkeeper,79,86,3410000.0,3700.0,186,82,Right,4,1,1,4,54,45,54,59,57,75,29,0,1,1811
+100502,Aleksandr Fischer,25,Serbia,Rotterdam Haven,Eredivisie Pro,RM,Midfielder,89,95,10521000.0,14300.0,178,73,Right,2,2,2,3,96,77,98,91,85,99,31,7,10,2656
+100503,Liam Ferreira,31,Netherlands,Sporting Lumen,Continental A,CF,Forward,69,69,1511000.0,2300.0,179,80,Right,2,3,2,4,74,64,56,71,42,54,18,9,6,1016
+100504,Tariq Marchetti,30,USA,Crystal Rovers,Crown League,RWB,Defender,69,69,1322000.0,1800.0,183,81,Right,4,1,3,3,49,45,70,55,76,71,24,0,1,1988
+100505,Kenji Toure,24,Nigeria,Marseille Bleu,Ligue Première,ST,Forward,62,62,1026000.0,1000.0,186,74,Right,5,1,2,5,73,69,41,63,47,57,22,5,2,1185
+100506,Mateo Sato,17,Morocco,Eisern Berlin,Bundesklasse,RW,Forward,72,81,3334000.0,4800.0,187,77,Right,5,2,3,3,68,72,61,81,59,79,34,15,6,2343
+100507,Sven Larsson,22,Ghana,Crystal Rovers,Crown League,CDM,Midfielder,74,75,2057000.0,2700.0,169,81,Right,4,1,1,4,70,64,85,76,72,59,18,6,5,1219
+100508,Sven Nielsen,31,Italy,Hansa Nord,Bundesklasse,GK,Goalkeeper,66,66,373000.0,1000.0,186,74,Right,1,1,3,4,47,31,48,38,44,63,24,0,0,1834
+100509,Luca Bauer,29,Mexico,Rotterdam Haven,Eredivisie Pro,CB,Defender,80,81,2194000.0,2900.0,189,74,Right,5,3,1,3,76,65,65,85,82,80,38,4,4,3359
+100510,Jonas Sato,26,Uruguay,Real Montaña,Continental A,RB,Defender,65,68,886000.0,1000.0,179,81,Right,4,1,1,2,66,26,58,51,61,67,15,1,2,915
+100511,Yusuf Weber,21,Sweden,Hansa Nord,Bundesklasse,CAM,Midfielder,67,76,1250000.0,1300.0,191,79,Right,5,4,3,2,63,66,64,68,46,62,32,6,9,1676
+100512,Nikola Costa,31,Denmark,Lille Or,Ligue Première,CF,Forward,60,60,446000.0,1000.0,178,81,Right,5,2,3,3,70,64,55,70,33,46,18,12,4,970
+100513,Kenji Tanaka,26,Morocco,Real Montaña,Continental A,ST,Forward,67,74,1959000.0,2600.0,182,80,Right,4,2,3,2,75,72,59,73,50,52,25,11,7,1754
+100514,Luca Silva,22,Uruguay,Utrecht Dom,Eredivisie Pro,CAM,Midfielder,85,93,9607000.0,15400.0,180,78,Right,2,2,2,2,88,76,89,91,75,80,20,5,9,905
+100515,Pavel Volkov,26,Norway,Torino Granata,Serie Oro,RWB,Defender,77,82,2383000.0,3300.0,185,85,Left,5,3,2,3,71,57,68,53,80,77,14,2,1,697
+100516,Hugo Lindqvist,28,Belgium,Costa Azul,Continental A,RB,Defender,85,89,4493000.0,3100.0,172,71,Right,4,2,3,3,85,81,77,71,89,82,23,1,0,1375
+100517,Rafael Larsson,24,England,Eindhoven Volt,Eredivisie Pro,CAM,Midfielder,82,90,7464000.0,10100.0,180,81,Right,2,1,3,4,78,86,80,79,90,83,26,1,10,1332
+100518,Liam Park,19,Norway,Bayern Stein,Bundesklasse,LM,Midfielder,63,67,1074000.0,1600.0,185,71,Left,1,2,3,2,49,48,73,64,57,54,37,9,9,3077
+100519,Leon Novak,32,Morocco,Sporting Lumen,Continental A,CDM,Midfielder,64,64,703000.0,1000.0,188,82,Right,5,1,1,3,54,64,65,61,53,58,23,5,5,1243
+100520,Nikola Vega,16,England,Atlético Sol,Continental A,CM,Midfielder,68,79,2540000.0,2900.0,177,65,Left,4,1,3,3,61,72,74,69,73,75,12,2,3,946
+100521,Daichi Park,27,Uruguay,Eindhoven Volt,Eredivisie Pro,CF,Forward,68,68,1280000.0,1800.0,185,79,Right,2,2,2,3,79,74,57,73,54,76,23,9,1,1337
+100522,Leon Marchetti,23,Senegal,Olympia Verde,Continental A,RM,Midfielder,65,65,1274000.0,1600.0,179,83,Right,3,1,3,3,59,50,68,67,73,64,27,9,4,2088
+100523,Rafael Schmidt,28,Ghana,Rhein Adler,Bundesklasse,CAM,Midfielder,74,77,3069000.0,4000.0,188,88,Right,5,3,4,4,64,69,86,66,71,75,27,6,5,2352
+100524,Emre Janssen,19,Senegal,Lille Or,Ligue Première,CAM,Midfielder,87,95,14874000.0,9800.0,182,76,Right,1,2,4,3,91,75,95,75,78,84,29,10,8,1457
+100525,Victor Bauer,21,Portugal,Eisern Berlin,Bundesklasse,LWB,Defender,55,62,462000.0,1000.0,180,73,Right,3,1,1,3,51,33,37,45,60,52,27,2,2,2177
+100526,Noah Fischer,28,Senegal,Roma Vera,Serie Oro,CDM,Midfielder,66,66,670000.0,1000.0,191,82,Right,2,1,4,2,68,58,63,75,59,70,23,5,8,1274
+100527,Kai Castro,27,Brazil,Inter Lazio,Serie Oro,CDM,Midfielder,72,75,2816000.0,2600.0,184,78,Right,3,1,3,3,71,63,83,82,67,65,29,5,6,2520
+100528,Marco Stankovic,25,Serbia,Bayern Stein,Bundesklasse,LM,Midfielder,75,75,2546000.0,2800.0,180,81,Right,1,2,3,4,77,63,74,86,74,78,30,6,7,1636
+100529,Tariq Lindqvist,33,France,Olympia Verde,Continental A,RB,Defender,71,71,977000.0,1100.0,184,74,Right,1,1,4,3,64,52,59,60,75,74,36,3,1,2474
+100530,Kai Reyes,29,Serbia,Amsterdam Lance,Eredivisie Pro,CF,Forward,66,69,1163000.0,1600.0,181,84,Left,5,3,4,3,73,74,73,66,48,70,26,15,4,2036
+100531,Bruno Vega,21,Mexico,Napoli Sud,Serie Oro,GK,Goalkeeper,71,74,1506000.0,1300.0,193,76,Right,3,1,3,3,55,28,45,46,58,71,27,0,0,1352
+100532,Marco Keller,23,Portugal,Eisern Berlin,Bundesklasse,CB,Defender,81,87,2884000.0,3000.0,189,80,Right,3,1,2,3,73,62,80,74,88,75,23,1,3,1091
+100533,Mateo Andersen,32,Colombia,Roma Vera,Serie Oro,LWB,Defender,60,60,409000.0,1000.0,196,80,Right,3,1,1,2,41,40,52,46,60,62,25,2,3,1364
+100534,Omar Adeyemi,25,Mexico,Riverside FC,Crown League,LWB,Defender,72,74,1245000.0,1000.0,177,70,Right,1,1,4,3,72,47,66,61,75,69,32,0,4,2826
+100535,Kai Andersen,25,Italy,Ironside AFC,Crown League,LM,Midfielder,70,77,2867000.0,3700.0,177,71,Right,1,2,3,3,72,70,74,70,64,65,16,3,5,893
+100536,Bruno Andersen,24,England,Ironside AFC,Crown League,ST,Forward,77,83,4165000.0,5100.0,188,80,Right,3,2,2,1,81,83,72,82,51,70,38,21,8,2136
+100537,Mateo Nielsen,22,Belgium,Northgate United,Crown League,RW,Forward,78,85,7617000.0,11800.0,172,80,Right,2,2,4,3,89,87,56,85,54,82,16,6,2,1112
+100538,Carlos Diallo,16,Senegal,Groningen Noord,Eredivisie Pro,GK,Goalkeeper,66,80,1288000.0,1500.0,195,78,Right,1,2,3,4,43,40,58,45,45,56,16,0,1,1368
+100539,Omar Castro,21,Netherlands,Riverside FC,Crown League,CDM,Midfielder,64,72,1916000.0,1900.0,179,74,Right,3,2,3,3,63,54,63,73,66,48,33,5,12,2009
+100540,Felix Bianchi,24,Morocco,Crystal Rovers,Crown League,RB,Defender,81,88,4895000.0,3000.0,176,66,Right,3,3,3,3,84,61,82,67,84,90,22,1,5,1528
+100541,Samir Castro,25,Sweden,Bayern Stein,Bundesklasse,LM,Midfielder,63,63,770000.0,1200.0,181,67,Right,3,1,3,4,54,69,76,64,50,61,38,12,9,2506
+100542,Daichi Sato,28,Italy,Lyon Sud,Ligue Première,ST,Forward,70,76,2964000.0,4400.0,174,81,Left,5,2,3,3,78,75,69,70,32,62,17,6,2,1141
+100543,Nikola Dubois,21,Senegal,Real Montaña,Continental A,CAM,Midfielder,73,76,3409000.0,4200.0,193,83,Right,3,1,3,3,71,54,77,84,73,58,27,9,6,1663
+100544,Diego Moretti,19,Sweden,Utrecht Dom,Eredivisie Pro,CAM,Midfielder,73,75,2249000.0,1500.0,179,91,Right,5,1,2,3,68,76,70,66,68,79,24,4,8,1961
+100545,Eli Okafor,20,France,Groningen Noord,Eredivisie Pro,RM,Midfielder,67,76,1289000.0,2000.0,170,87,Left,3,2,1,2,70,59,71,67,57,58,20,6,10,1592
+100546,Emre Weber,24,Croatia,Roma Vera,Serie Oro,ST,Forward,76,80,3000000.0,3700.0,182,68,Right,5,2,4,3,79,78,63,88,66,65,22,8,5,1513
+100547,Leon Keller,26,Norway,Eisern Berlin,Bundesklasse,CF,Forward,85,88,10274000.0,9300.0,196,76,Right,4,1,3,3,91,89,77,92,63,83,17,15,6,1240
+100548,Samir Bianchi,24,Ghana,Atlético Sol,Continental A,RB,Defender,83,83,3571000.0,5400.0,180,66,Right,3,1,5,3,83,61,68,84,96,73,36,3,3,1811
+100549,Mateo Diallo,27,England,Bayern Stein,Bundesklasse,CAM,Midfielder,82,86,5617000.0,6900.0,187,79,Left,1,1,3,2,79,82,98,83,82,79,22,6,6,1083
+100550,Joel Mensah,31,South Korea,Crystal Rovers,Crown League,RW,Forward,77,78,2537000.0,2700.0,181,68,Right,4,2,3,2,80,78,73,87,58,62,18,15,6,1203
+100551,Diego Costa,23,England,Torino Granata,Serie Oro,CB,Defender,71,76,2466000.0,2900.0,173,70,Right,2,2,5,3,63,46,63,65,76,81,36,2,1,3147
+100552,Daichi Haaland,27,Colombia,Sporting Lumen,Continental A,RM,Midfielder,72,75,2074000.0,1900.0,177,71,Right,3,2,4,3,70,58,76,78,73,78,19,5,6,1127
+100553,Dani Sato,28,Brazil,Monaco Rocher,Ligue Première,CB,Defender,74,74,1780000.0,2700.0,182,73,Right,5,2,3,4,68,63,59,57,75,74,24,0,4,1113
+100554,Mateo Novak,34,Serbia,Lyon Sud,Ligue Première,CF,Forward,62,62,853000.0,1000.0,180,63,Left,4,2,3,4,65,66,54,62,49,50,28,11,2,1276
+100555,Kai Dubois,22,Morocco,Ironside AFC,Crown League,CF,Forward,70,77,2688000.0,2500.0,178,74,Right,3,1,3,3,63,78,66,62,48,61,38,22,4,2804
+100556,Samir Okafor,28,USA,Lille Or,Ligue Première,RM,Midfielder,68,68,1108000.0,1500.0,180,73,Right,2,2,3,2,61,56,62,67,70,70,15,3,3,978
+100557,Joel Petrov,20,Colombia,Riverside FC,Crown League,CDM,Midfielder,70,76,1437000.0,2200.0,185,89,Right,2,2,4,3,77,50,69,73,68,49,38,10,8,3311
+100558,Carlos Fischer,20,Germany,Riverside FC,Crown League,LB,Defender,70,78,2820000.0,2500.0,185,80,Right,2,3,2,2,61,57,60,45,73,74,15,0,1,1202
+100559,Kai Okafor,22,Norway,Rotterdam Haven,Eredivisie Pro,RM,Midfielder,71,78,2545000.0,1600.0,185,78,Right,5,1,4,4,79,66,72,77,59,74,5,2,1,251
+100560,Mateo Larsson,24,USA,Roma Vera,Serie Oro,LM,Midfielder,69,71,1225000.0,1500.0,193,90,Right,1,1,5,5,60,54,74,70,66,69,17,4,8,1000
+100561,Bruno Marchetti,25,Germany,Ironside AFC,Crown League,RM,Midfielder,75,79,2995000.0,2900.0,181,78,Right,2,1,3,4,72,73,77,69,71,68,32,12,7,2789
+100562,Tariq Volkov,22,Portugal,Torino Granata,Serie Oro,CF,Forward,66,71,1831000.0,1300.0,177,86,Left,2,3,2,2,71,71,65,64,47,57,21,10,4,1362
+100563,Tom Lindqvist,23,Belgium,Real Montaña,Continental A,RW,Forward,72,77,2641000.0,3100.0,171,74,Right,4,2,4,4,76,76,68,79,62,67,29,10,9,2235
+100564,Omar Rossi,27,Spain,Paris Étoile,Ligue Première,LW,Forward,71,73,2656000.0,2500.0,187,81,Right,4,2,4,3,79,76,68,80,54,75,28,16,8,2279
+100565,Pavel Ibrahim,21,Japan,Milano Nero,Serie Oro,RWB,Defender,69,74,1585000.0,2200.0,191,73,Right,2,3,3,4,72,58,61,65,81,71,24,2,2,1739
+100566,Rafael Bianchi,26,England,Paris Étoile,Ligue Première,LB,Defender,65,68,795000.0,1000.0,177,77,Right,3,1,1,3,55,37,55,37,64,71,16,0,0,1383
+100567,Bruno Ferreira,23,Argentina,Marseille Bleu,Ligue Première,LWB,Defender,68,76,1420000.0,1000.0,183,76,Left,4,2,2,4,57,46,50,58,73,74,22,1,2,1318
+100568,Leon Marin,23,Portugal,Napoli Sud,Serie Oro,LW,Forward,66,73,2014000.0,2600.0,183,81,Right,3,2,3,4,73,58,62,60,42,62,17,8,3,941
+100569,Tom Silva,25,Netherlands,Ironside AFC,Crown League,LW,Forward,69,71,979000.0,1000.0,183,80,Right,3,3,2,3,74,78,60,73,48,67,24,10,6,1131
+100570,Samir Moretti,25,Denmark,Olympia Verde,Continental A,RM,Midfielder,71,80,2585000.0,2000.0,182,83,Left,4,1,2,3,71,62,72,80,66,68,31,9,6,2501
+100571,Victor Costa,17,USA,Real Montaña,Continental A,CAM,Midfielder,61,67,1040000.0,1000.0,180,81,Right,2,1,3,3,66,49,64,54,53,64,21,6,6,961
+100572,Joel Stankovic,27,USA,Amsterdam Lance,Eredivisie Pro,RW,Forward,82,84,4970000.0,7900.0,181,75,Left,3,3,3,2,80,91,89,81,60,85,16,6,1,1393
+100573,Noah Romano,21,Belgium,Ironside AFC,Crown League,ST,Forward,60,65,1434000.0,1400.0,187,78,Left,3,3,2,4,65,65,68,66,53,61,20,7,4,1689
+100574,Bruno Hart,29,Denmark,Costa Azul,Continental A,LB,Defender,77,77,2722000.0,4000.0,187,67,Right,4,2,2,3,65,47,57,71,91,78,23,1,1,1179
+100575,Tom Tanaka,29,Belgium,Napoli Sud,Serie Oro,LW,Forward,87,87,7498000.0,5000.0,180,83,Right,1,1,2,3,84,96,77,80,69,77,25,22,10,1253
+100576,Felix Marin,18,Spain,Ironside AFC,Crown League,LWB,Defender,77,87,4479000.0,6900.0,166,77,Right,2,3,2,3,73,57,60,67,85,85,23,4,1,1414
+100577,Kai Larsson,20,Italy,Northgate United,Crown League,ST,Forward,76,84,5386000.0,5500.0,175,74,Left,4,2,3,2,77,81,71,84,52,73,16,9,2,966
+100578,Hugo Bianchi,24,Nigeria,Eindhoven Volt,Eredivisie Pro,CDM,Midfielder,78,90,2634000.0,3700.0,180,70,Right,3,4,3,2,78,62,82,81,68,78,23,6,6,1526
+100579,Tom Kovac,30,South Korea,Hansa Nord,Bundesklasse,CF,Forward,60,60,673000.0,1000.0,181,82,Right,3,2,3,4,64,60,55,68,28,58,18,10,3,1477
+100580,Pavel Marchetti,29,Senegal,Eindhoven Volt,Eredivisie Pro,CB,Defender,68,68,847000.0,1300.0,189,85,Right,4,1,4,4,67,55,68,56,75,74,17,2,0,1486
+100581,Noah Moretti,27,Brazil,Milano Nero,Serie Oro,GK,Goalkeeper,59,62,541000.0,1000.0,176,72,Right,3,3,2,3,36,30,49,41,36,48,10,0,0,463
+100582,Bruno Stankovic,27,Norway,Rotterdam Haven,Eredivisie Pro,CDM,Midfielder,57,65,638000.0,1000.0,177,71,Left,1,2,2,4,53,27,58,54,46,52,30,3,9,2678
+100583,Joel Larsson,28,Uruguay,Napoli Sud,Serie Oro,RWB,Defender,66,70,1093000.0,1400.0,188,78,Right,4,2,3,3,63,52,64,54,70,78,9,0,1,607
+100584,Aleksandr Andersen,25,Germany,Schwarzwald SV,Bundesklasse,RB,Defender,68,71,1711000.0,1400.0,194,91,Right,4,2,3,3,71,55,61,56,65,80,24,5,4,1814
+100585,Yusuf Reyes,24,Spain,Monaco Rocher,Ligue Première,LB,Defender,76,82,3569000.0,4600.0,170,68,Right,1,3,3,2,83,54,58,75,74,75,18,0,2,998
+100586,Leon Hart,19,Nigeria,Olympia Verde,Continental A,RW,Forward,73,78,4761000.0,5700.0,180,80,Right,2,1,2,3,73,79,80,90,43,65,24,15,4,1652
+100587,Rafael Marin,30,Japan,Inter Lazio,Serie Oro,CAM,Midfielder,65,65,606000.0,1000.0,183,74,Right,3,2,3,3,66,54,67,74,49,76,26,9,2,1644
+100588,Emre Andersen,19,Norway,Torino Granata,Serie Oro,LWB,Defender,72,82,4487000.0,3100.0,176,66,Right,2,3,4,3,63,63,73,65,80,74,19,1,1,1392
+100589,Kai Okafor,24,Japan,Crystal Rovers,Crown League,GK,Goalkeeper,64,75,1268000.0,2000.0,188,73,Left,5,2,3,4,45,30,41,41,40,59,38,0,0,2823
+100590,Ravi Janssen,26,Senegal,Ironside AFC,Crown League,RWB,Defender,80,84,4206000.0,6600.0,177,71,Right,4,1,3,3,61,57,66,69,81,85,10,1,3,491
+100591,Liam Bauer,22,Argentina,Eisern Berlin,Bundesklasse,RB,Defender,78,85,5031000.0,4500.0,185,78,Left,5,1,3,3,63,56,69,65,84,83,6,0,1,392
+100592,Sergio Toure,18,Mexico,Sporting Lumen,Continental A,RB,Defender,75,84,5221000.0,4900.0,181,85,Right,4,1,4,3,75,48,67,63,81,71,11,2,0,897
+100593,Tom Toure,26,France,Rotterdam Haven,Eredivisie Pro,RW,Forward,70,70,1972000.0,2300.0,188,86,Left,3,2,4,2,83,72,64,73,42,67,23,8,5,2016
+100594,Jonas Ibrahim,24,Uruguay,Amsterdam Lance,Eredivisie Pro,CB,Defender,75,77,2802000.0,3900.0,176,78,Right,3,1,4,3,76,58,79,73,79,95,11,0,3,920
+100595,Marco Marin,28,Uruguay,Utrecht Dom,Eredivisie Pro,GK,Goalkeeper,73,75,2836000.0,2300.0,189,76,Right,2,1,4,2,43,42,68,45,55,64,14,0,0,842
+100596,Kai Reyes,25,Serbia,Ironside AFC,Crown League,CAM,Midfielder,77,84,3687000.0,4300.0,189,68,Right,1,2,2,3,70,64,73,67,70,74,31,6,8,2588
+100597,Joel Keller,22,Argentina,Groningen Noord,Eredivisie Pro,LWB,Defender,69,70,1820000.0,2200.0,179,80,Right,2,1,1,3,49,53,56,71,82,68,3,0,0,235
+100598,Daichi Diallo,28,South Korea,Atlético Sol,Continental A,LB,Defender,67,67,969000.0,1100.0,179,85,Right,1,3,3,3,76,43,56,59,63,76,21,2,3,1874
+100599,Bruno Marchetti,31,Argentina,Hansa Nord,Bundesklasse,LB,Defender,77,77,2054000.0,1900.0,180,72,Right,2,2,2,2,58,60,59,65,81,71,30,1,6,2670
