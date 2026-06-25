@@ -71,19 +71,6 @@ Dashboard UX: dark mode + red accents, a sticky **quick-jump section nav**, KPI 
 
 > **Why Streamlit (not Next.js + FastAPI)?** For a portfolio data-science project, Streamlit delivers a polished, interactive, *deployable* app in pure Python — no separate frontend/backend, build step, or hosting glue. That means faster completion, one-command local run, and free one-click cloud hosting, while keeping all focus on the data and models. A React/FastAPI split would add significant surface area for little analytical benefit here.
 
-## 📸 Screenshots
-
-> _Add screenshots here after running locally (see [What to screenshot](#-what-to-screenshot-for-your-portfolio))._
-
-| Section | Placeholder |
-|---|---|
-| Hero + KPI tiles | `docs/screenshots/01_hero.png` |
-| Hidden Talent Discovery | `docs/screenshots/02_hidden_talent.png` |
-| Transfer Success Predictor | `docs/screenshots/03_transfer.png` |
-| Career Trajectory | `docs/screenshots/04_trajectory.png` |
-| Recruitment Engine | `docs/screenshots/05_recruitment.png` |
-| Model Lab | `docs/screenshots/06_model_lab.png` |
-
 ## 📊 Dataset information
 
 The app loads data with a **3-tier fallback** (first match wins):
