@@ -145,7 +145,3 @@ Held-out 20% test split. Indicative results on the synthetic sample data (will v
 - Designed an **explainable Undervalue Score and a Club Recruitment Engine** with weighted fit scoring, enabling data-driven, budget-aware recruitment decisions and transparent, stakeholder-friendly recommendations.
 - Owned the **full project lifecycle** - data cleaning, EDA, feature engineering, modeling, evaluation, dashboard UX, documentation and deployment configuration - producing a reproducible, GitHub- and Streamlit-Cloud–ready portfolio project.
 
-## LinkedIn project description
-
-> **Football Intelligence Scouting Platform** - an end-to-end data science project that brings analytics to football recruitment. I built an interactive, dark-mode Streamlit dashboard that discovers undervalued players, predicts transfer success and career trajectories and recommends recruitment shortlists. The stack: Python, pandas/NumPy, scikit-learn (Random Forest regression & classification with permutation-importance explainability) and Plotly. I engineered valuation and performance features, designed a transparent Undervalue Score and a club Fit Score, evaluated models with MAE/RMSE/R² and Accuracy/Precision/Recall/F1/ROC-AUC and made the whole project reproducible and deployable. Built with a generic football theme using synthetic, non-branded data - easily swapped for a real dataset. #DataScience #MachineLearning #Python #Streamlit #SportsAnalytics #Portfolio
-
