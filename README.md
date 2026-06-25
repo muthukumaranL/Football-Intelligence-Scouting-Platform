@@ -59,18 +59,6 @@ The app loads data with a **3-tier fallback** (first match wins):
 
 **The default experience uses synthetic *sample* data** so the project runs out-of-the-box with zero setup or API keys. It is clearly labelled as sample data in the UI. To use real data:
 
-```bash
-# Example: a Kaggle FIFA players CSV
-# 1. download players_22.csv (or similar)
-# 2. drop it in:
-data/raw/players_22.csv
-# 3. rerun - the loader auto-detects and the alias map standardizes columns
-```
-
-Optional API keys (Kaggle, football-data.org, API-FOOTBALL) live in [`.env.example`](.env.example); none are required.
-
-**Expected columns** (others are imputed/derived): `name, age, nationality, club, league, position, overall_rating, potential, market_value_eur, wage_eur` + optional attributes (`pace, shooting, passing, dribbling, defending, physic`) and performance (`appearances, goals, assists, minutes_played`). Full schema in [`docs/data_dictionary.md`](docs/data_dictionary.md).
-
 ## Project architecture
 
 ```
