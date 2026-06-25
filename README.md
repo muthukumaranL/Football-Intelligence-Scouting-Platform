@@ -8,11 +8,11 @@
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> ⚠️ **No FIFA / EA branding.** This project uses a generic football-scouting theme with **synthetic, non-copyrighted** player, club and league names. No official logos, team crests, or trademarked assets are used. Drop in a real dataset any time (see [Dataset information](#-dataset-information)).
+> **No FIFA / EA branding.** This project uses a generic football-scouting theme with **synthetic, non-copyrighted** player, club and league names. No official logos, team crests or trademarked assets are used.
 
 ---
 
-## ⚡ Quickstart
+## Quickstart
 
 ```bash
 git clone https://github.com/<your-username>/football-intelligence-scouting-platform.git
@@ -23,7 +23,7 @@ streamlit run app.py            # opens http://localhost:8501
 
 No API keys, no manual data download — the app self-bootstraps a synthetic sample dataset and trains its models on first run (~10–15s).
 
-## 📑 Table of contents
+## Table of contents
 
 - [Overview](#-overview) · [Business problem](#-business-problem) · [Features](#-features)
 - [Tech stack](#-tech-stack) · [Screenshots](#-screenshots) · [Dataset](#-dataset-information)
@@ -34,19 +34,19 @@ No API keys, no manual data download — the app self-bootstraps a synthetic sam
 
 ---
 
-## 📖 Overview
+## Overview
 
 Professional clubs spend hundreds of millions on transfers, yet many decisions still rely on gut feel. This platform demonstrates how a data team can support recruitment with **repeatable, explainable analytics**: identifying value in the market, quantifying risk, and forecasting growth — all from a single interactive dashboard.
 
 It is built as a **recruiter-ready Data Analyst / Data Science / AI-ML portfolio project**, showcasing the full lifecycle: data cleaning → EDA → feature engineering → predictive modeling → scoring/recommendation systems → an interactive product → documentation → deployment.
 
-## 🎯 Business problem
+## Business problem
 
 > *"Given a pool of players, which ones are undervalued, which transfers are most likely to succeed, how will players' values evolve, and who should a club shortlist within its budget and needs?"*
 
 The platform answers this with four decision tools, each surfaced as a dashboard section.
 
-## ✨ Features
+## Features
 
 | # | Module | What it does |
 |---|--------|--------------|
@@ -60,7 +60,7 @@ The platform answers this with four decision tools, each surfaced as a dashboard
 
 Dashboard UX: dark mode + red accents, a sticky **quick-jump section nav**, KPI tiles, glass cards, player cards, scouting **score rings**, transfer-risk **badges**, searchable/filterable tables, radar comparisons, and interactive Plotly charts.
 
-## 🧰 Tech stack
+## Tech stack
 
 - **Language:** Python 3.10+
 - **App / UI:** Streamlit (single-page dashboard, custom CSS theme)
@@ -71,7 +71,7 @@ Dashboard UX: dark mode + red accents, a sticky **quick-jump section nav**, KPI 
 
 > **Why Streamlit (not Next.js + FastAPI)?** For a portfolio data-science project, Streamlit delivers a polished, interactive, *deployable* app in pure Python — no separate frontend/backend, build step, or hosting glue. That means faster completion, one-command local run, and free one-click cloud hosting, while keeping all focus on the data and models. A React/FastAPI split would add significant surface area for little analytical benefit here.
 
-## 📊 Dataset information
+## Dataset information
 
 The app loads data with a **3-tier fallback** (first match wins):
 
@@ -93,7 +93,7 @@ Optional API keys (Kaggle, football-data.org, API-FOOTBALL) live in [`.env.examp
 
 **Expected columns** (others are imputed/derived): `name, age, nationality, club, league, position, overall_rating, potential, market_value_eur, wage_eur` + optional attributes (`pace, shooting, passing, dribbling, defending, physic`) and performance (`appearances, goals, assists, minutes_played`). Full schema in [`docs/data_dictionary.md`](docs/data_dictionary.md).
 
-## 🏗️ Project architecture
+## Project architecture
 
 ```
 football-intelligence-scouting-platform/
@@ -127,7 +127,7 @@ football-intelligence-scouting-platform/
 
 **Data flow:** `load_raw_data → clean_data → engineer_features → train_all_models → compute_undervalue_score → add_trajectory_category → dashboard`. The whole pipeline is cached with `st.cache_resource`, so models train once per session.
 
-## 🚀 How to run locally
+## How to run locally
 
 ```bash
 # 1. (recommended) create a virtual environment
@@ -152,20 +152,7 @@ Optional — regenerate the sample dataset from the CLI:
 python -m src.data_loader
 ```
 
-## ☁️ How to deploy
-
-Fully deployment-ready for free platforms. Quick version (full steps in [`docs/deployment_guide.md`](docs/deployment_guide.md)):
-
-**Streamlit Community Cloud (recommended)**
-1. Push this repo to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io) → *New app*.
-3. Pick the repo, branch, and `app.py` as the entry point → *Deploy*.
-
-**Hugging Face Spaces** — create a *Streamlit* Space, push the repo. **Render** — new *Web Service*, start command `streamlit run app.py --server.port $PORT --server.address 0.0.0.0`.
-
-No secrets are required; the app self-bootstraps its sample data.
-
-## 🔬 Methodology
+## Methodology
 
 Full detail in [`docs/methodology.md`](docs/methodology.md). Summary:
 
@@ -176,7 +163,7 @@ Full detail in [`docs/methodology.md`](docs/methodology.md). Summary:
   - `transfer_success` — a binary label from a latent youth/potential/quality/value/reputation score + noise, thresholded at the median (~balanced classes).
 - **Undervalue Score** — explainable weighted composite (not a black box): `0.30·upside + 0.20·potential + 0.15·age + 0.20·quality-per-cost + 0.15·wage-efficiency`, scaled 0–100.
 
-## 🤖 ML models used
+## ML models used
 
 | Task | Model | Notes |
 |------|-------|-------|
@@ -185,7 +172,7 @@ Full detail in [`docs/methodology.md`](docs/methodology.md). Summary:
 | Explainability | `permutation_importance` | surfaced in the Model Lab |
 | Recommendation / similarity | Weighted composite scores + Euclidean nearest neighbours | transparent, no training needed |
 
-## 📈 Evaluation metrics
+## Evaluation metrics
 
 Held-out 20% test split. Indicative results on the synthetic sample data (will vary with a real dataset):
 
@@ -194,19 +181,19 @@ Held-out 20% test split. Indicative results on the synthetic sample data (will v
 
 > Current market value is (correctly) the strongest predictor of future value, so high R² is expected — the model's job is to learn the *growth adjustment* on top of it.
 
-## 💡 Key insights
+## Key insights
 
 - The strongest value signals cluster around **young players with a wide potential–rating gap** and modest wages.
 - **Position groups differ** in average value efficiency — a useful starting point for budget-conscious recruitment (the dashboard surfaces the leader dynamically).
 - Combining **upside (growth)** with **price** separates genuine bargains from merely cheap players.
 
-## ⚠️ Limitations
+## Limitations
 
 - The bundled dataset is **synthetic sample data**; insights are illustrative until a real dataset is supplied.
 - `future_value` and `transfer_success` are **documented proxy targets**, not observed outcomes — the modeling *workflow* is the deliverable, not ground-truth transfer results.
 - No injury, contract-clause, tactical-system, or temporal/season data; club-fit is a transparent heuristic layered on the base model.
 
-## 🔭 Future improvements
+## Future improvements
 
 - Plug in a real, time-stamped dataset and validate against **actual** future values / transfer outcomes.
 - Add SHAP explanations, hyperparameter tuning, and model comparison (XGBoost/LightGBM, gradient boosting).
@@ -216,14 +203,14 @@ Held-out 20% test split. Indicative results on the synthetic sample data (will v
 
 ---
 
-## 📝 Resume bullets
+## Resume bullets
 
 - Built an interactive **football scouting analytics platform** using **Python, Streamlit, pandas, scikit-learn, and Plotly** to identify undervalued players, predict career growth, and generate recruitment shortlists, packaged as a polished one-page dashboard.
 - Engineered **player valuation and performance features** and trained **regression and classification models** (R² ≈ 0.92; ROC-AUC ≈ 0.85) to compute undervalue scores, forecast future market value, and estimate transfer-success probability.
 - Designed an **explainable Undervalue Score and a Club Recruitment Engine** with weighted fit scoring, enabling data-driven, budget-aware recruitment decisions and transparent, stakeholder-friendly recommendations.
 - Owned the **full project lifecycle** — data cleaning, EDA, feature engineering, modeling, evaluation, dashboard UX, documentation, and deployment configuration — producing a reproducible, GitHub- and Streamlit-Cloud–ready portfolio project.
 
-## 💼 LinkedIn project description
+## LinkedIn project description
 
 > **Football Intelligence Scouting Platform** — an end-to-end data science project that brings analytics to football recruitment. I built an interactive, dark-mode Streamlit dashboard that discovers undervalued players, predicts transfer success and career trajectories, and recommends recruitment shortlists. The stack: Python, pandas/NumPy, scikit-learn (Random Forest regression & classification with permutation-importance explainability), and Plotly. I engineered valuation and performance features, designed a transparent Undervalue Score and a club Fit Score, evaluated models with MAE/RMSE/R² and Accuracy/Precision/Recall/F1/ROC-AUC, and made the whole project reproducible and deployable. Built with a generic football theme using synthetic, non-branded data — easily swapped for a real dataset. #DataScience #MachineLearning #Python #Streamlit #SportsAnalytics #Portfolio
 
