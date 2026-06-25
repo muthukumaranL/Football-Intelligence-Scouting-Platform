@@ -87,31 +87,6 @@ football-intelligence-scouting-platform/
 
 **Data flow:** `load_raw_data → clean_data → engineer_features → train_all_models → compute_undervalue_score → add_trajectory_category → dashboard`. The whole pipeline is cached with `st.cache_resource`, so models train once per session.
 
-## How to run locally
-
-```bash
-# 1. (recommended) create a virtual environment
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-# 2. install dependencies
-pip install -r requirements.txt
-
-# 3. launch the dashboard
-streamlit run app.py
-```
-
-Then open the URL Streamlit prints (default http://localhost:8501). On first run the app generates the sample dataset and trains the models (~10–15s), then everything is cached.
-
-Optional - regenerate the sample dataset from the CLI:
-
-```bash
-python -m src.data_loader
-```
-
 ## Methodology
 
 Full detail in [`docs/methodology.md`](docs/methodology.md). Summary:
