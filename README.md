@@ -12,28 +12,6 @@
 
 ---
 
-## Quickstart
-
-```bash
-git clone https://github.com/<your-username>/football-intelligence-scouting-platform.git
-cd football-intelligence-scouting-platform
-pip install -r requirements.txt
-streamlit run app.py            # opens http://localhost:8501
-```
-
-No API keys, no manual data download — the app self-bootstraps a synthetic sample dataset and trains its models on first run (~10–15s).
-
-## Table of contents
-
-- [Overview](#-overview) · [Business problem](#-business-problem) · [Features](#-features)
-- [Tech stack](#-tech-stack) · [Screenshots](#-screenshots) · [Dataset](#-dataset-information)
-- [Architecture](#-project-architecture) · [Run locally](#-how-to-run-locally) · [Deploy](#-how-to-deploy)
-- [Methodology](#-methodology) · [Models](#-ml-models-used) · [Metrics](#-evaluation-metrics)
-- [Insights](#-key-insights) · [Limitations](#️-limitations) · [Future work](#-future-improvements)
-- [Resume bullets](#-resume-bullets) · [LinkedIn description](#-linkedin-project-description)
-
----
-
 ## Overview
 
 Professional clubs spend hundreds of millions on transfers, yet many decisions still rely on gut feel. This platform demonstrates how a data team can support recruitment with **repeatable, explainable analytics**: identifying value in the market, quantifying risk, and forecasting growth — all from a single interactive dashboard.
