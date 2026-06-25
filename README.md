@@ -51,13 +51,7 @@ Dashboard UX: dark mode + red accents, a sticky **quick-jump section nav**, KPI 
 
 ## Dataset information
 
-The app loads data with a **3-tier fallback** (first match wins):
-
-1. **Real data** - any `.csv` you place in [`data/raw/`](data/raw/). Common FIFA / SoFIFA / market-value column names are auto-mapped (see [`src/preprocessing.py`](src/preprocessing.py) `COLUMN_ALIASES`).
-2. **Bundled sample** - [`data/sample/players_sample.csv`](data/sample/) (generated on first run).
-3. **Synthetic generation** - a realistic, correlated dataset of 600 players created by [`src/data_loader.py`](src/data_loader.py).
-
-**The default experience uses synthetic *sample* data** so the project runs out-of-the-box with zero setup or API keys. It is clearly labelled as sample data in the UI. To use real data:
+**The default experience uses synthetic *sample* data** so the project runs out-of-the-box with zero setup or API keys. It is clearly labelled as sample data in the UI.
 
 ## Project architecture
 
