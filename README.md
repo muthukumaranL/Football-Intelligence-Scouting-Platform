@@ -137,11 +137,3 @@ Held-out 20% test split. Indicative results on the synthetic sample data (will v
 - User accounts + a scouting watchlist; A/B-tested ranking weights.
 
 ---
-
-## Resume bullets
-
-- Built an interactive **football scouting analytics platform** using **Python, Streamlit, pandas, scikit-learn and Plotly** to identify undervalued players, predict career growth and generate recruitment shortlists, packaged as a polished one-page dashboard.
-- Engineered **player valuation and performance features** and trained **regression and classification models** (R² ≈ 0.92; ROC-AUC ≈ 0.85) to compute undervalue scores, forecast future market value and estimate transfer-success probability.
-- Designed an **explainable Undervalue Score and a Club Recruitment Engine** with weighted fit scoring, enabling data-driven, budget-aware recruitment decisions and transparent, stakeholder-friendly recommendations.
-- Owned the **full project lifecycle** - data cleaning, EDA, feature engineering, modeling, evaluation, dashboard UX, documentation and deployment configuration - producing a reproducible, GitHub- and Streamlit-Cloud–ready portfolio project.
-
